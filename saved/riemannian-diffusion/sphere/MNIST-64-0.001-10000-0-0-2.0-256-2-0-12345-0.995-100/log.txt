@@ -1,0 +1,404 @@
+2022-11-23 17:43:32.070796	folder path: saved/riemannian-diffusion/sphere/MNIST-64-0.001-10000-0-0-2.0-256-2-0-12345-0.995-100
+2022-11-23 17:43:32.070934	Namespace(dataset='MNIST', dataroot='data', saveroot='saved', expname='sphere', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, inference_num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, warmup_iters=0, ema_decay=0.995, mode='train')
+2022-11-23 17:44:57.391994	folder path: saved/riemannian-diffusion/sphere/MNIST-64-0.001-10000-0-0-2.0-256-2-0-12345-0.995-100
+2022-11-23 17:44:57.392241	Namespace(dataset='MNIST', dataroot='data', saveroot='saved', expname='sphere', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, inference_num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, warmup_iters=0, ema_decay=0.995, mode='train')
+2022-11-23 17:44:58.198511	ConcatSinMLP(
+  (net): Sequential(
+    (0): Linear(in_features=4, out_features=256, bias=True)
+    (1): Sin()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Sin()
+    (4): Linear(in_features=256, out_features=3, bias=True)
+  )
+)
+2022-11-23 17:44:58.198698	cuda unavailable
+2022-11-23 17:59:13.133774	folder path: saved/riemannian-diffusion/sphere/MNIST-64-0.001-10000-0-0-2.0-256-2-0-12345-0.995-100
+2022-11-23 17:59:13.134004	Namespace(dataset='MNIST', dataroot='data', saveroot='saved', expname='sphere', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, inference_num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, warmup_iters=0, ema_decay=0.995, mode='train')
+2022-11-23 18:05:47.659973	folder path: saved/riemannian-diffusion/sphere/MNIST-64-0.001-10000-0-0-2.0-256-2-0-12345-0.995-100
+2022-11-23 18:05:47.660212	Namespace(dataset='MNIST', dataroot='data', saveroot='saved', expname='sphere', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, inference_num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, warmup_iters=0, ema_decay=0.995, mode='train')
+2022-11-23 18:05:48.480078	ConcatSinMLP(
+  (net): Sequential(
+    (0): Linear(in_features=4, out_features=256, bias=True)
+    (1): Sin()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Sin()
+    (4): Linear(in_features=256, out_features=3, bias=True)
+  )
+)
+2022-11-23 18:05:48.480260	cuda unavailable
+2022-11-23 18:21:40.501358	folder path: saved/riemannian-diffusion/sphere/MNIST-64-0.001-10000-0-0-2.0-256-2-0-12345-0.995-100
+2022-11-23 18:21:40.501489	Namespace(dataset='MNIST', dataroot='data', saveroot='saved', expname='sphere', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, inference_num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, warmup_iters=0, ema_decay=0.995, mode='train')
+2022-11-23 18:22:23.577711	folder path: saved/riemannian-diffusion/sphere/MNIST-64-0.001-10000-0-0-2.0-256-2-0-12345-0.995-100
+2022-11-23 18:22:23.577891	Namespace(dataset='MNIST', dataroot='data', saveroot='saved', expname='sphere', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, inference_num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, warmup_iters=0, ema_decay=0.995, mode='train')
+2022-11-23 18:22:43.859009	folder path: saved/riemannian-diffusion/sphere/MNIST-64-0.001-10000-0-0-2.0-256-2-0-12345-0.995-100
+2022-11-23 18:22:43.859206	Namespace(dataset='MNIST', dataroot='data', saveroot='saved', expname='sphere', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, inference_num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, warmup_iters=0, ema_decay=0.995, mode='train')
+2022-11-23 18:22:44.677530	ConcatSinMLP(
+  (net): Sequential(
+    (0): Linear(in_features=4, out_features=256, bias=True)
+    (1): Sin()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Sin()
+    (4): Linear(in_features=256, out_features=3, bias=True)
+  )
+)
+2022-11-23 18:22:44.677726	cuda unavailable
+2022-11-23 18:23:30.168661	folder path: saved/riemannian-diffusion/sphere/MNIST-64-0.001-10000-0-0-2.0-256-2-0-12345-0.995-100
+2022-11-23 18:23:30.168811	Namespace(dataset='MNIST', dataroot='data', saveroot='saved', expname='sphere', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, inference_num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, warmup_iters=0, ema_decay=0.995, mode='train')
+2022-11-23 18:23:31.365453	ConcatSinMLP(
+  (net): Sequential(
+    (0): Linear(in_features=4, out_features=256, bias=True)
+    (1): Sin()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Sin()
+    (4): Linear(in_features=256, out_features=3, bias=True)
+  )
+)
+2022-11-23 18:23:31.365686	cuda unavailable
+2022-11-23 18:25:43.845966	folder path: saved/riemannian-diffusion/sphere/MNIST-64-0.001-10000-0-0-2.0-256-2-0-12345-0.995-100
+2022-11-23 18:25:43.846133	Namespace(dataset='MNIST', dataroot='data', saveroot='saved', expname='sphere', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, inference_num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, warmup_iters=0, ema_decay=0.995, mode='train')
+2022-11-23 18:25:44.662262	ConcatSinMLP(
+  (net): Sequential(
+    (0): Linear(in_features=4, out_features=256, bias=True)
+    (1): Sin()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Sin()
+    (4): Linear(in_features=256, out_features=3, bias=True)
+  )
+)
+2022-11-23 18:25:44.662446	cuda unavailable
+2022-11-23 18:26:03.154461	folder path: saved/riemannian-diffusion/sphere/MNIST-64-0.001-10000-0-0-2.0-256-2-0-12345-0.995-100
+2022-11-23 18:26:03.154644	Namespace(dataset='MNIST', dataroot='data', saveroot='saved', expname='sphere', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, inference_num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, warmup_iters=0, ema_decay=0.995, mode='train')
+2022-11-23 18:26:03.916623	ConcatSinMLP(
+  (net): Sequential(
+    (0): Linear(in_features=4, out_features=256, bias=True)
+    (1): Sin()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Sin()
+    (4): Linear(in_features=256, out_features=3, bias=True)
+  )
+)
+2022-11-23 18:26:03.916845	cuda unavailable
+2022-11-23 18:38:04.805639	folder path: saved/riemannian-diffusion/sphere/MNIST-64-0.001-10000-0-0-2.0-256-2-0-12345-0.995-100
+2022-11-23 18:38:04.805899	Namespace(dataset='MNIST', dataroot='data', saveroot='saved', expname='sphere', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, inference_num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, warmup_iters=0, ema_decay=0.995, mode='train')
+2022-11-23 18:38:05.655804	ConcatSinMLP(
+  (net): Sequential(
+    (0): Linear(in_features=4, out_features=256, bias=True)
+    (1): Sin()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Sin()
+    (4): Linear(in_features=256, out_features=3, bias=True)
+  )
+)
+2022-11-23 18:38:05.656056	cuda unavailable
+2022-11-23 18:50:07.227859	folder path: saved/riemannian-diffusion/sphere/MNIST-64-0.001-10000-0-0-2.0-256-2-0-12345-0.995-100
+2022-11-23 18:50:07.228218	Namespace(dataset='MNIST', dataroot='data', saveroot='saved', expname='sphere', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, inference_num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, warmup_iters=0, ema_decay=0.995, mode='train')
+2022-11-23 18:50:08.404965	ConcatSinMLP(
+  (net): Sequential(
+    (0): Linear(in_features=4, out_features=256, bias=True)
+    (1): Sin()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Sin()
+    (4): Linear(in_features=256, out_features=3, bias=True)
+  )
+)
+2022-11-23 18:50:08.405164	cuda unavailable
+2022-11-23 19:07:44.414562	folder path: saved/riemannian-diffusion/sphere/MNIST-64-0.001-10000-0-0-2.0-256-2-0-12345-0.995-100
+2022-11-23 19:07:44.414899	Namespace(dataset='MNIST', dataroot='data', saveroot='saved', expname='sphere', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, inference_num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, warmup_iters=0, ema_decay=0.995, mode='train')
+2022-11-23 19:07:45.534192	ConcatSinMLP(
+  (net): Sequential(
+    (0): Linear(in_features=4, out_features=256, bias=True)
+    (1): Sin()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Sin()
+    (4): Linear(in_features=256, out_features=3, bias=True)
+  )
+)
+2022-11-23 19:07:45.534407	cuda unavailable
+2022-11-23 19:09:28.872900	folder path: saved/riemannian-diffusion/sphere/MNIST-64-0.001-10000-0-0-2.0-256-2-0-12345-0.995-100
+2022-11-23 19:09:28.873089	Namespace(dataset='MNIST', dataroot='data', saveroot='saved', expname='sphere', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, inference_num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, warmup_iters=0, ema_decay=0.995, mode='train')
+2022-11-23 19:09:29.665235	ConcatSinMLP(
+  (net): Sequential(
+    (0): Linear(in_features=4, out_features=256, bias=True)
+    (1): Sin()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Sin()
+    (4): Linear(in_features=256, out_features=3, bias=True)
+  )
+)
+2022-11-23 19:09:29.665469	cuda unavailable
+2022-11-23 19:10:29.268273	folder path: saved/riemannian-diffusion/sphere/MNIST-64-0.001-10000-0-0-2.0-256-2-0-12345-0.995-100
+2022-11-23 19:10:29.268583	Namespace(dataset='MNIST', dataroot='data', saveroot='saved', expname='sphere', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, inference_num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, warmup_iters=0, ema_decay=0.995, mode='train')
+2022-11-23 19:10:30.083009	ConcatSinMLP(
+  (net): Sequential(
+    (0): Linear(in_features=4, out_features=256, bias=True)
+    (1): Sin()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Sin()
+    (4): Linear(in_features=256, out_features=3, bias=True)
+  )
+)
+2022-11-23 19:10:30.083185	cuda unavailable
+2022-11-23 19:11:35.635919	folder path: saved/riemannian-diffusion/sphere/MNIST-64-0.001-10000-0-0-2.0-256-2-0-12345-0.995-100
+2022-11-23 19:11:35.636120	Namespace(dataset='MNIST', dataroot='data', saveroot='saved', expname='sphere', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, inference_num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, warmup_iters=0, ema_decay=0.995, mode='train')
+2022-11-23 19:11:36.462864	ConcatSinMLP(
+  (net): Sequential(
+    (0): Linear(in_features=4, out_features=256, bias=True)
+    (1): Sin()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Sin()
+    (4): Linear(in_features=256, out_features=3, bias=True)
+  )
+)
+2022-11-23 19:11:36.463084	cuda unavailable
+2022-11-23 19:12:04.020662	folder path: saved/riemannian-diffusion/sphere/MNIST-64-0.001-10000-0-0-2.0-256-2-0-12345-0.995-100
+2022-11-23 19:12:04.020857	Namespace(dataset='MNIST', dataroot='data', saveroot='saved', expname='sphere', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, inference_num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, warmup_iters=0, ema_decay=0.995, mode='train')
+2022-11-23 19:12:04.850861	ConcatSinMLP(
+  (net): Sequential(
+    (0): Linear(in_features=4, out_features=256, bias=True)
+    (1): Sin()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Sin()
+    (4): Linear(in_features=256, out_features=3, bias=True)
+  )
+)
+2022-11-23 19:12:04.851062	cuda unavailable
+2022-11-23 19:12:50.512964	folder path: saved/riemannian-diffusion/sphere/MNIST-64-0.001-10000-0-0-2.0-256-2-0-12345-0.995-100
+2022-11-23 19:12:50.513109	Namespace(dataset='MNIST', dataroot='data', saveroot='saved', expname='sphere', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, inference_num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, warmup_iters=0, ema_decay=0.995, mode='train')
+2022-11-23 19:12:51.343864	ConcatSinMLP(
+  (net): Sequential(
+    (0): Linear(in_features=4, out_features=256, bias=True)
+    (1): Sin()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Sin()
+    (4): Linear(in_features=256, out_features=3, bias=True)
+  )
+)
+2022-11-23 19:12:51.344115	cuda unavailable
+2022-11-23 19:13:07.265311	folder path: saved/riemannian-diffusion/sphere/MNIST-64-0.001-10000-0-0-2.0-256-2-0-12345-0.995-100
+2022-11-23 19:13:07.265499	Namespace(dataset='MNIST', dataroot='data', saveroot='saved', expname='sphere', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, inference_num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, warmup_iters=0, ema_decay=0.995, mode='train')
+2022-11-23 19:13:08.092693	ConcatSinMLP(
+  (net): Sequential(
+    (0): Linear(in_features=4, out_features=256, bias=True)
+    (1): Sin()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Sin()
+    (4): Linear(in_features=256, out_features=3, bias=True)
+  )
+)
+2022-11-23 19:13:08.093034	cuda unavailable
+2022-11-23 19:16:08.368931	folder path: saved/riemannian-diffusion/sphere/MNIST-64-0.001-10000-0-0-2.0-256-2-0-12345-0.995-100
+2022-11-23 19:16:08.369295	Namespace(dataset='MNIST', dataroot='data', saveroot='saved', expname='sphere', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, inference_num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, warmup_iters=0, ema_decay=0.995, mode='train')
+2022-11-23 19:16:09.650019	ConcatSinMLP(
+  (net): Sequential(
+    (0): Linear(in_features=4, out_features=256, bias=True)
+    (1): Sin()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Sin()
+    (4): Linear(in_features=256, out_features=3, bias=True)
+  )
+)
+2022-11-23 19:16:09.650181	cuda unavailable
+2022-11-23 19:16:34.052868	folder path: saved/riemannian-diffusion/sphere/MNIST-64-0.001-10000-0-0-2.0-256-2-0-12345-0.995-100
+2022-11-23 19:16:34.053058	Namespace(dataset='MNIST', dataroot='data', saveroot='saved', expname='sphere', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, inference_num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, warmup_iters=0, ema_decay=0.995, mode='train')
+2022-11-23 19:16:36.221685	ConcatSinMLP(
+  (net): Sequential(
+    (0): Linear(in_features=4, out_features=256, bias=True)
+    (1): Sin()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Sin()
+    (4): Linear(in_features=256, out_features=3, bias=True)
+  )
+)
+2022-11-23 19:16:36.221922	cuda unavailable
+2022-11-23 19:16:51.867547	folder path: saved/riemannian-diffusion/sphere/MNIST-64-0.001-10000-0-0-2.0-256-2-0-12345-0.995-100
+2022-11-23 19:16:51.867785	Namespace(dataset='MNIST', dataroot='data', saveroot='saved', expname='sphere', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, inference_num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, warmup_iters=0, ema_decay=0.995, mode='train')
+2022-11-23 19:16:52.679076	ConcatSinMLP(
+  (net): Sequential(
+    (0): Linear(in_features=4, out_features=256, bias=True)
+    (1): Sin()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Sin()
+    (4): Linear(in_features=256, out_features=3, bias=True)
+  )
+)
+2022-11-23 19:16:52.679273	cuda unavailable
+2022-11-23 21:23:42.415263	folder path: saved/riemannian-diffusion/sphere/MNIST-64-0.001-10000-0-0-2.0-256-2-0-12345-0.995-100
+2022-11-23 21:23:42.415549	Namespace(dataset='MNIST', dataroot='data', saveroot='saved', expname='sphere', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, inference_num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, warmup_iters=0, ema_decay=0.995, mode='train')
+2022-11-23 21:23:43.302239	ConcatSinMLP(
+  (net): Sequential(
+    (0): Linear(in_features=4, out_features=256, bias=True)
+    (1): Sin()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Sin()
+    (4): Linear(in_features=256, out_features=3, bias=True)
+  )
+)
+2022-11-23 21:23:43.302433	cuda unavailable
+2022-11-23 21:28:34.965754	folder path: saved/riemannian-diffusion/sphere/MNIST-64-0.001-10000-0-0-2.0-256-2-0-12345-0.995-100
+2022-11-23 21:28:34.965961	Namespace(dataset='MNIST', dataroot='data', saveroot='saved', expname='sphere', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, inference_num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, warmup_iters=0, ema_decay=0.995, mode='train')
+2022-11-23 21:28:35.964863	ConcatSinMLP(
+  (net): Sequential(
+    (0): Linear(in_features=4, out_features=256, bias=True)
+    (1): Sin()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Sin()
+    (4): Linear(in_features=256, out_features=3, bias=True)
+  )
+)
+2022-11-23 21:28:35.965070	cuda unavailable
+2022-11-23 21:31:04.581112	folder path: saved/riemannian-diffusion/sphere/MNIST-64-0.001-10000-0-0-2.0-256-2-0-12345-0.995-100
+2022-11-23 21:31:04.581357	Namespace(dataset='MNIST', dataroot='data', saveroot='saved', expname='sphere', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, inference_num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, warmup_iters=0, ema_decay=0.995, mode='train')
+2022-11-23 21:31:05.418726	ConcatSinMLP(
+  (net): Sequential(
+    (0): Linear(in_features=4, out_features=256, bias=True)
+    (1): Sin()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Sin()
+    (4): Linear(in_features=256, out_features=3, bias=True)
+  )
+)
+2022-11-23 21:31:05.418934	cuda unavailable
+2022-11-23 21:31:22.241033	folder path: saved/riemannian-diffusion/sphere/MNIST-64-0.001-10000-0-0-2.0-256-2-0-12345-0.995-100
+2022-11-23 21:31:22.241149	Namespace(dataset='MNIST', dataroot='data', saveroot='saved', expname='sphere', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, inference_num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, warmup_iters=0, ema_decay=0.995, mode='train')
+2022-11-23 21:31:23.013797	ConcatSinMLP(
+  (net): Sequential(
+    (0): Linear(in_features=4, out_features=256, bias=True)
+    (1): Sin()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Sin()
+    (4): Linear(in_features=256, out_features=3, bias=True)
+  )
+)
+2022-11-23 21:31:23.014059	cuda unavailable
+2022-11-23 21:32:02.184590	folder path: saved/riemannian-diffusion/sphere/MNIST-64-0.001-10000-0-0-2.0-256-2-0-12345-0.995-100
+2022-11-23 21:32:02.184700	Namespace(dataset='MNIST', dataroot='data', saveroot='saved', expname='sphere', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, inference_num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, warmup_iters=0, ema_decay=0.995, mode='train')
+2022-11-23 21:32:02.936603	ConcatSinMLP(
+  (net): Sequential(
+    (0): Linear(in_features=4, out_features=256, bias=True)
+    (1): Sin()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Sin()
+    (4): Linear(in_features=256, out_features=3, bias=True)
+  )
+)
+2022-11-23 21:32:02.936841	cuda unavailable
+2022-11-23 21:34:11.006254	folder path: saved/riemannian-diffusion/sphere/MNIST-64-0.001-10000-0-0-2.0-256-2-0-12345-0.995-100
+2022-11-23 21:34:11.006373	Namespace(dataset='MNIST', dataroot='data', saveroot='saved', expname='sphere', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, inference_num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, warmup_iters=0, ema_decay=0.995, mode='train')
+2022-11-23 21:34:11.790567	ConcatSinMLP(
+  (net): Sequential(
+    (0): Linear(in_features=4, out_features=256, bias=True)
+    (1): Sin()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Sin()
+    (4): Linear(in_features=256, out_features=3, bias=True)
+  )
+)
+2022-11-23 21:34:11.790845	cuda unavailable
+2022-11-23 21:34:32.090354	folder path: saved/riemannian-diffusion/sphere/MNIST-64-0.001-10000-0-0-2.0-256-2-0-12345-0.995-100
+2022-11-23 21:34:32.090560	Namespace(dataset='MNIST', dataroot='data', saveroot='saved', expname='sphere', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, inference_num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, warmup_iters=0, ema_decay=0.995, mode='train')
+2022-11-23 21:34:32.870745	ConcatSinMLP(
+  (net): Sequential(
+    (0): Linear(in_features=4, out_features=256, bias=True)
+    (1): Sin()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Sin()
+    (4): Linear(in_features=256, out_features=3, bias=True)
+  )
+)
+2022-11-23 21:34:32.870996	cuda unavailable
+2022-11-23 21:52:48.235929	folder path: saved/riemannian-diffusion/sphere/MNIST-64-0.001-10000-0-0-2.0-256-2-0-12345-0.995-100
+2022-11-23 21:52:48.236249	Namespace(dataset='MNIST', dataroot='data', saveroot='saved', expname='sphere', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, inference_num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, warmup_iters=0, ema_decay=0.995, mode='train')
+2022-11-23 21:52:49.060708	ConcatSinMLP(
+  (net): Sequential(
+    (0): Linear(in_features=4, out_features=256, bias=True)
+    (1): Sin()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Sin()
+    (4): Linear(in_features=256, out_features=3, bias=True)
+  )
+)
+2022-11-23 21:52:49.060911	cuda unavailable
+2022-11-23 21:54:40.748640	folder path: saved/riemannian-diffusion/sphere/MNIST-64-0.001-10000-0-0-2.0-256-2-0-12345-0.995-100
+2022-11-23 21:54:40.748755	Namespace(dataset='MNIST', dataroot='data', saveroot='saved', expname='sphere', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, inference_num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, warmup_iters=0, ema_decay=0.995, mode='train')
+2022-11-23 21:54:41.564758	ConcatSinMLP(
+  (net): Sequential(
+    (0): Linear(in_features=4, out_features=256, bias=True)
+    (1): Sin()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Sin()
+    (4): Linear(in_features=256, out_features=3, bias=True)
+  )
+)
+2022-11-23 21:54:41.564947	cuda unavailable
+2022-11-24 00:04:10.777533	folder path: saved/riemannian-diffusion/sphere/MNIST-64-0.001-10000-0-0-2.0-256-2-0-12345-0.995-100
+2022-11-24 00:04:10.777980	Namespace(dataset='MNIST', dataroot='data', saveroot='saved', expname='sphere', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, inference_num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, warmup_iters=0, ema_decay=0.995, mode='train')
+2022-11-24 00:04:11.647049	ConcatSinMLP(
+  (net): Sequential(
+    (0): Linear(in_features=4, out_features=256, bias=True)
+    (1): Sin()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Sin()
+    (4): Linear(in_features=256, out_features=3, bias=True)
+  )
+)
+2022-11-24 00:04:11.647250	cuda unavailable
+2022-11-24 00:07:48.047067	folder path: saved/riemannian-diffusion/sphere/MNIST-64-0.001-10000-0-0-2.0-256-2-0-12345-0.995-100
+2022-11-24 00:07:48.047378	Namespace(dataset='MNIST', dataroot='data', saveroot='saved', expname='sphere', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, inference_num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, warmup_iters=0, ema_decay=0.995, mode='train')
+2022-11-24 00:07:48.861229	ConcatSinMLP(
+  (net): Sequential(
+    (0): Linear(in_features=4, out_features=256, bias=True)
+    (1): Sin()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Sin()
+    (4): Linear(in_features=256, out_features=3, bias=True)
+  )
+)
+2022-11-24 00:07:48.861552	cuda unavailable
+2022-11-24 00:12:49.669331	folder path: saved/riemannian-diffusion/sphere/MNIST-64-0.001-10000-0-0-2.0-256-2-0-12345-0.995-100
+2022-11-24 00:12:49.669606	Namespace(dataset='MNIST', dataroot='data', saveroot='saved', expname='sphere', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, inference_num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, warmup_iters=0, ema_decay=0.995, mode='train')
+2022-11-24 00:12:50.501019	ConcatSinMLP(
+  (net): Sequential(
+    (0): Linear(in_features=4, out_features=256, bias=True)
+    (1): Sin()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Sin()
+    (4): Linear(in_features=256, out_features=3, bias=True)
+  )
+)
+2022-11-24 00:12:50.501240	cuda unavailable
+2022-11-24 00:15:05.918931	folder path: saved/riemannian-diffusion/sphere/MNIST-64-0.001-10000-0-0-2.0-256-2-0-12345-0.995-100
+2022-11-24 00:15:05.919281	Namespace(dataset='MNIST', dataroot='data', saveroot='saved', expname='sphere', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, inference_num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, warmup_iters=0, ema_decay=0.995, mode='train')
+2022-11-24 00:15:06.719039	ConcatSinMLP(
+  (net): Sequential(
+    (0): Linear(in_features=4, out_features=256, bias=True)
+    (1): Sin()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Sin()
+    (4): Linear(in_features=256, out_features=3, bias=True)
+  )
+)
+2022-11-24 00:15:06.719236	cuda unavailable
+2022-11-24 00:15:42.096842	folder path: saved/riemannian-diffusion/sphere/MNIST-64-0.001-10000-0-0-2.0-256-2-0-12345-0.995-100
+2022-11-24 00:15:42.096985	Namespace(dataset='MNIST', dataroot='data', saveroot='saved', expname='sphere', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, inference_num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, warmup_iters=0, ema_decay=0.995, mode='train')
+2022-11-24 00:15:43.117796	ConcatSinMLP(
+  (net): Sequential(
+    (0): Linear(in_features=4, out_features=256, bias=True)
+    (1): Sin()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Sin()
+    (4): Linear(in_features=256, out_features=3, bias=True)
+  )
+)
+2022-11-24 00:15:43.118006	cuda unavailable
+2022-11-24 00:28:51.305808	folder path: saved/riemannian-diffusion/sphere/MNIST-64-0.001-10000-0-0-2.0-256-2-0-12345-0.995-100
+2022-11-24 00:28:51.306203	Namespace(dataset='MNIST', dataroot='data', saveroot='saved', expname='sphere', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, inference_num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, warmup_iters=0, ema_decay=0.995, mode='train')
+2022-11-24 00:28:52.162963	ConcatSinMLP(
+  (net): Sequential(
+    (0): Linear(in_features=4, out_features=256, bias=True)
+    (1): Sin()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Sin()
+    (4): Linear(in_features=256, out_features=3, bias=True)
+  )
+)
+2022-11-24 00:28:52.163296	cuda unavailable

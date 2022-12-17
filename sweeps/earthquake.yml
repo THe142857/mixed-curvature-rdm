@@ -1,0 +1,27 @@
+program: train_sphere.py
+method: random
+metric:
+  goal: maximize
+  name: val_kelbo
+parameters:
+  dataset:
+    values: ['earthquake']
+  expname:
+    values: ['sphere_earthquake_sweep0']
+  batch_size:
+    values: [6000]
+  lr:
+    values: [0.01, 0.003, 0.001, 0.0003]
+  num_iterations:
+    values: [30000]
+  T0:
+    values: [1.0, 2.0, 3.0, 4.0]
+  emb_size:
+    values: [128, 256, 512, 1024]
+  hidden_layers:
+    values: [2, 4, 8, 16, 24]
+  saveroot:
+    values: ["/home/mila/a/aghajohm/scratch/saved"]
+  num_steps:
+    values: [1000]
+

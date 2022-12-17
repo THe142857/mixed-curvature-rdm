@@ -1,0 +1,17 @@
+__pycache__/
+.ipynb_checkpoints/
+assets/
+data/
+dataset/
+experiments_data/
+ldm/
+notebooks/
+plots/
+results/
+taming/
+vq-f8/
+wandb/
+venv/
+
+.swp
+model.ckpt

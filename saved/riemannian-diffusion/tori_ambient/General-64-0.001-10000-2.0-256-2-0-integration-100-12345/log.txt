@@ -1,0 +1,623 @@
+2022-11-23 16:32:07.955199	folder path: saved/riemannian-diffusion/tori_ambient/General-64-0.001-10000-2.0-256-2-0-integration-100-12345
+2022-11-23 16:32:07.955361	Namespace(dataset='General', dataroot='data', saveroot='saved', expname='tori_ambient', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, bm_sampling_method='integration', bm_sampling_steps=100, observe_loss_with_bm_direct_sampling=True, mode='train')
+2022-11-23 16:32:10.203042	ConcatMLP(
+  (net): Sequential(
+    (0): Linear(in_features=5, out_features=256, bias=True)
+    (1): Swish()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Swish()
+    (4): Linear(in_features=256, out_features=4, bias=True)
+  )
+)
+2022-11-23 16:32:10.203250	cuda unavailable
+2022-11-23 16:32:10.209677	bm_sampling_method: integration.
+2022-11-23 16:32:11.032320	Iteration 1 	loss 3.709961175918579
+2022-11-23 16:32:12.230986	Iteration 100 	loss 2.311002016067505
+2022-11-23 16:32:13.463696	Iteration 200 	loss 2.7657976150512695
+2022-11-23 16:32:14.658821	Iteration 300 	loss 1.7536697387695312
+2022-11-23 16:32:15.889755	Iteration 400 	loss 1.6443670988082886
+2022-11-23 16:32:17.085719	Iteration 500 	loss 1.7343186140060425
+2022-11-23 16:32:43.176510	Iteration 600 	loss 1.3801369667053223
+2022-11-23 16:32:44.452899	Iteration 700 	loss 2.244807004928589
+2022-11-23 16:32:45.705180	Iteration 800 	loss 2.571013927459717
+2022-11-23 16:32:46.975917	Iteration 900 	loss 0.5511937737464905
+2022-11-23 16:32:48.274277	Iteration 1000 	loss 1.3250515460968018
+2022-11-23 16:33:14.279697	Iteration 1100 	loss 2.1204843521118164
+2022-11-23 16:33:15.524997	Iteration 1200 	loss 2.6523377895355225
+2022-11-23 16:33:16.820820	Iteration 1300 	loss 2.4650120735168457
+2022-11-23 16:33:18.063238	Iteration 1400 	loss 0.9061660170555115
+2022-11-23 16:33:19.345744	Iteration 1500 	loss 2.6115355491638184
+2022-11-25 01:46:40.106169	folder path: saved/riemannian-diffusion/tori_ambient/General-64-0.001-10000-2.0-256-2-0-integration-100-12345
+2022-11-25 01:46:40.106584	Namespace(dataset='General', dataroot='data', saveroot='saved', expname='tori_ambient', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, bm_sampling_method='integration', bm_sampling_steps=100, observe_loss_with_bm_direct_sampling=True, mode='train')
+2022-11-25 01:47:48.998586	folder path: saved/riemannian-diffusion/tori_ambient/General-64-0.001-10000-2.0-256-2-0-integration-100-12345
+2022-11-25 01:47:48.998774	Namespace(dataset='General', dataroot='data', saveroot='saved', expname='tori_ambient', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, bm_sampling_method='integration', bm_sampling_steps=100, observe_loss_with_bm_direct_sampling=True, mode='train')
+2022-11-25 01:53:25.251097	folder path: saved/riemannian-diffusion/tori_ambient/General-64-0.001-10000-2.0-256-2-0-integration-100-12345
+2022-11-25 01:53:25.252133	Namespace(dataset='General', dataroot='data', saveroot='saved', expname='tori_ambient', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, bm_sampling_method='integration', bm_sampling_steps=100, observe_loss_with_bm_direct_sampling=True, mode='train')
+2022-11-25 01:53:26.447075	ConcatMLP(
+  (net): Sequential(
+    (0): Linear(in_features=5, out_features=256, bias=True)
+    (1): Swish()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Swish()
+    (4): Linear(in_features=256, out_features=4, bias=True)
+  )
+)
+2022-11-25 01:53:26.447311	cuda unavailable
+2022-11-25 01:53:26.455911	bm_sampling_method: integration.
+2022-11-25 01:53:26.456071	loading checkpoint
+2022-11-25 01:53:28.094554	Iteration 1100 	loss 1.8581926822662354
+2022-11-25 01:53:29.870585	Iteration 1200 	loss 0.8255025148391724
+2022-11-25 01:53:31.500271	Iteration 1300 	loss 2.4267125129699707
+2022-11-25 01:53:33.111841	Iteration 1400 	loss 0.878738522529602
+2022-11-25 01:53:34.736914	Iteration 1500 	loss 2.292057514190674
+2022-11-25 01:54:10.144237	Iteration 1600 	loss 0.5521652698516846
+2022-11-25 01:54:11.766016	Iteration 1700 	loss 1.745171070098877
+2022-11-25 01:54:13.387787	Iteration 1800 	loss 1.0802805423736572
+2022-11-25 01:54:14.982596	Iteration 1900 	loss 1.7636489868164062
+2022-11-25 01:54:16.615606	Iteration 2000 	loss 2.4051473140716553
+2022-11-25 01:54:53.060285	Iteration 2100 	loss 0.7221878170967102
+2022-11-25 01:54:54.809049	Iteration 2200 	loss 0.9216811060905457
+2022-11-25 01:54:56.491040	Iteration 2300 	loss 2.676471471786499
+2022-11-25 01:54:58.215335	Iteration 2400 	loss 1.5547751188278198
+2022-11-25 01:54:59.845907	Iteration 2500 	loss 0.4638041853904724
+2022-11-25 01:55:35.287054	Iteration 2600 	loss 1.656951665878296
+2022-11-25 01:55:36.956113	Iteration 2700 	loss 2.032071590423584
+2022-11-25 01:55:38.602360	Iteration 2800 	loss 2.317591428756714
+2022-11-25 01:55:40.257944	Iteration 2900 	loss 3.589001417160034
+2022-11-25 01:55:41.920561	Iteration 3000 	loss 2.3468828201293945
+2022-11-25 01:56:16.369864	Iteration 3100 	loss 2.4042673110961914
+2022-11-25 01:56:18.107452	Iteration 3200 	loss 1.7748053073883057
+2022-11-25 01:56:19.759722	Iteration 3300 	loss 2.214127540588379
+2022-11-25 01:56:21.417296	Iteration 3400 	loss 1.3054814338684082
+2022-11-25 01:56:23.047145	Iteration 3500 	loss 0.14634969830513
+2022-11-25 01:56:56.261951	Iteration 3600 	loss 0.9869300127029419
+2022-11-25 01:56:57.898277	Iteration 3700 	loss 2.6878490447998047
+2022-11-25 01:56:59.503329	Iteration 3800 	loss 3.343064069747925
+2022-11-25 01:57:01.101495	Iteration 3900 	loss 0.9396604299545288
+2022-11-25 01:57:02.838305	Iteration 4000 	loss 2.5047757625579834
+2022-11-25 01:57:51.565284	folder path: saved/riemannian-diffusion/tori_ambient/General-64-0.001-10000-2.0-256-2-0-integration-100-12345
+2022-11-25 01:57:51.565404	Namespace(dataset='General', dataroot='data', saveroot='saved', expname='tori_ambient', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, bm_sampling_method='integration', bm_sampling_steps=100, observe_loss_with_bm_direct_sampling=True, mode='train')
+2022-11-25 01:57:52.691531	ConcatMLP(
+  (net): Sequential(
+    (0): Linear(in_features=5, out_features=256, bias=True)
+    (1): Swish()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Swish()
+    (4): Linear(in_features=256, out_features=4, bias=True)
+  )
+)
+2022-11-25 01:57:52.692347	cuda unavailable
+2022-11-25 01:57:52.695184	bm_sampling_method: integration.
+2022-11-25 01:57:52.695348	loading checkpoint
+2022-11-25 01:57:55.346524	Iteration 4100 	loss 1.2762259244918823
+2022-11-25 01:58:19.605867	folder path: saved/riemannian-diffusion/tori_ambient/General-64-0.001-10000-2.0-256-2-0-integration-100-12345
+2022-11-25 01:58:19.606156	Namespace(dataset='General', dataroot='data', saveroot='saved', expname='tori_ambient', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, bm_sampling_method='integration', bm_sampling_steps=100, observe_loss_with_bm_direct_sampling=True, mode='train')
+2022-11-25 01:58:20.702697	ConcatMLP(
+  (net): Sequential(
+    (0): Linear(in_features=5, out_features=256, bias=True)
+    (1): Swish()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Swish()
+    (4): Linear(in_features=256, out_features=4, bias=True)
+  )
+)
+2022-11-25 01:58:20.702974	cuda unavailable
+2022-11-25 01:58:20.706263	bm_sampling_method: integration.
+2022-11-25 01:58:20.706445	loading checkpoint
+2022-11-25 02:00:11.976608	folder path: saved/riemannian-diffusion/tori_ambient/General-64-0.001-10000-2.0-256-2-0-integration-100-12345
+2022-11-25 02:00:11.976792	Namespace(dataset='General', dataroot='data', saveroot='saved', expname='tori_ambient', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, bm_sampling_method='integration', bm_sampling_steps=100, observe_loss_with_bm_direct_sampling=True, mode='train')
+2022-11-25 02:00:13.212299	ConcatMLP(
+  (net): Sequential(
+    (0): Linear(in_features=5, out_features=256, bias=True)
+    (1): Swish()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Swish()
+    (4): Linear(in_features=256, out_features=4, bias=True)
+  )
+)
+2022-11-25 02:00:13.212603	cuda unavailable
+2022-11-25 02:00:13.215861	bm_sampling_method: integration.
+2022-11-25 02:00:13.216039	loading checkpoint
+2022-11-25 02:00:14.677186	Iteration 4100 	loss 1.3324168920516968
+2022-11-25 02:02:36.495832	folder path: saved/riemannian-diffusion/tori_ambient/General-64-0.001-10000-2.0-256-2-0-integration-100-12345
+2022-11-25 02:02:36.496012	Namespace(dataset='General', dataroot='data', saveroot='saved', expname='tori_ambient', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, bm_sampling_method='integration', bm_sampling_steps=100, observe_loss_with_bm_direct_sampling=True, mode='train')
+2022-11-25 02:03:27.810455	folder path: saved/riemannian-diffusion/tori_ambient/General-64-0.001-10000-2.0-256-2-0-integration-100-12345
+2022-11-25 02:03:27.810661	Namespace(dataset='General', dataroot='data', saveroot='saved', expname='tori_ambient', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, bm_sampling_method='integration', bm_sampling_steps=100, observe_loss_with_bm_direct_sampling=True, mode='train')
+2022-11-25 02:04:42.115407	folder path: saved/riemannian-diffusion/tori_ambient/General-64-0.001-10000-2.0-256-2-0-integration-100-12345
+2022-11-25 02:04:42.115576	Namespace(dataset='General', dataroot='data', saveroot='saved', expname='tori_ambient', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, bm_sampling_method='integration', bm_sampling_steps=100, observe_loss_with_bm_direct_sampling=True, mode='train')
+2022-11-25 02:05:19.149082	folder path: saved/riemannian-diffusion/tori_ambient/General-64-0.001-10000-2.0-256-2-0-integration-100-12345
+2022-11-25 02:05:19.149228	Namespace(dataset='General', dataroot='data', saveroot='saved', expname='tori_ambient', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, bm_sampling_method='integration', bm_sampling_steps=100, observe_loss_with_bm_direct_sampling=True, mode='train')
+2022-11-25 02:06:01.500868	folder path: saved/riemannian-diffusion/tori_ambient/General-64-0.001-10000-2.0-256-2-0-integration-100-12345
+2022-11-25 02:06:01.501286	Namespace(dataset='General', dataroot='data', saveroot='saved', expname='tori_ambient', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, bm_sampling_method='integration', bm_sampling_steps=100, observe_loss_with_bm_direct_sampling=True, mode='train')
+2022-11-25 02:06:43.736142	folder path: saved/riemannian-diffusion/tori_ambient/General-64-0.001-10000-2.0-256-2-0-integration-100-12345
+2022-11-25 02:06:43.736309	Namespace(dataset='General', dataroot='data', saveroot='saved', expname='tori_ambient', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, bm_sampling_method='integration', bm_sampling_steps=100, observe_loss_with_bm_direct_sampling=True, mode='train')
+2022-11-25 02:08:43.744046	ConcatMLP(
+  (net): Sequential(
+    (0): Linear(in_features=9, out_features=256, bias=True)
+    (1): Swish()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Swish()
+    (4): Linear(in_features=256, out_features=8, bias=True)
+  )
+)
+2022-11-25 02:08:43.744599	cuda unavailable
+2022-11-25 02:12:26.603745	folder path: saved/riemannian-diffusion/tori_ambient/General-64-0.001-10000-2.0-256-2-0-integration-100-12345
+2022-11-25 02:12:26.604158	Namespace(dataset='General', dataroot='data', saveroot='saved', expname='tori_ambient', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, bm_sampling_method='integration', bm_sampling_steps=100, observe_loss_with_bm_direct_sampling=True, mode='train')
+2022-11-25 02:12:35.672861	folder path: saved/riemannian-diffusion/tori_ambient/General-64-0.001-10000-2.0-256-2-0-integration-100-12345
+2022-11-25 02:12:35.673056	Namespace(dataset='General', dataroot='data', saveroot='saved', expname='tori_ambient', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, bm_sampling_method='integration', bm_sampling_steps=100, observe_loss_with_bm_direct_sampling=True, mode='train')
+2022-11-25 02:12:48.466768	ConcatMLP(
+  (net): Sequential(
+    (0): Linear(in_features=9, out_features=256, bias=True)
+    (1): Swish()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Swish()
+    (4): Linear(in_features=256, out_features=8, bias=True)
+  )
+)
+2022-11-25 02:12:48.466944	cuda unavailable
+2022-11-25 02:12:48.467152	bm_sampling_method: integration.
+2022-11-25 02:12:48.467219	loading checkpoint
+2022-11-25 02:25:33.002302	folder path: saved/riemannian-diffusion/tori_ambient/General-64-0.001-10000-2.0-256-2-0-integration-100-12345
+2022-11-25 02:25:33.002978	Namespace(dataset='General', dataroot='data', saveroot='saved', expname='tori_ambient', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, bm_sampling_method='integration', bm_sampling_steps=100, observe_loss_with_bm_direct_sampling=True, mode='train')
+2022-11-25 02:25:45.959088	ConcatMLP(
+  (net): Sequential(
+    (0): Linear(in_features=9, out_features=256, bias=True)
+    (1): Swish()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Swish()
+    (4): Linear(in_features=256, out_features=8, bias=True)
+  )
+)
+2022-11-25 02:25:45.959260	cuda unavailable
+2022-11-25 02:25:45.959421	bm_sampling_method: integration.
+2022-11-25 02:25:45.959486	loading checkpoint
+2022-11-25 02:28:07.217157	folder path: saved/riemannian-diffusion/tori_ambient/General-64-0.001-10000-2.0-256-2-0-integration-100-12345
+2022-11-25 02:28:07.217442	Namespace(dataset='General', dataroot='data', saveroot='saved', expname='tori_ambient', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, bm_sampling_method='integration', bm_sampling_steps=100, observe_loss_with_bm_direct_sampling=True, mode='train')
+2022-11-25 02:28:19.941699	ConcatMLP(
+  (net): Sequential(
+    (0): Linear(in_features=9, out_features=256, bias=True)
+    (1): Swish()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Swish()
+    (4): Linear(in_features=256, out_features=8, bias=True)
+  )
+)
+2022-11-25 02:28:19.941841	cuda unavailable
+2022-11-25 02:28:19.941994	bm_sampling_method: integration.
+2022-11-25 02:28:19.942081	loading checkpoint
+2022-11-25 02:28:39.611015	folder path: saved/riemannian-diffusion/tori_ambient/General-64-0.001-10000-2.0-256-2-0-integration-100-12345
+2022-11-25 02:28:39.611172	Namespace(dataset='General', dataroot='data', saveroot='saved', expname='tori_ambient', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, bm_sampling_method='integration', bm_sampling_steps=100, observe_loss_with_bm_direct_sampling=True, mode='train')
+2022-11-25 02:28:52.307572	ConcatMLP(
+  (net): Sequential(
+    (0): Linear(in_features=9, out_features=256, bias=True)
+    (1): Swish()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Swish()
+    (4): Linear(in_features=256, out_features=8, bias=True)
+  )
+)
+2022-11-25 02:28:52.307704	cuda unavailable
+2022-11-25 02:28:52.307876	bm_sampling_method: integration.
+2022-11-25 02:28:52.307955	loading checkpoint
+2022-11-25 02:30:53.705775	folder path: saved/riemannian-diffusion/tori_ambient/General-64-0.001-10000-2.0-256-2-0-integration-100-12345
+2022-11-25 02:30:53.705965	Namespace(dataset='General', dataroot='data', saveroot='saved', expname='tori_ambient', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, bm_sampling_method='integration', bm_sampling_steps=100, observe_loss_with_bm_direct_sampling=True, mode='train')
+2022-11-25 02:31:15.846575	folder path: saved/riemannian-diffusion/tori_ambient/General-64-0.001-10000-2.0-256-2-0-integration-100-12345
+2022-11-25 02:31:15.847014	Namespace(dataset='General', dataroot='data', saveroot='saved', expname='tori_ambient', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, bm_sampling_method='integration', bm_sampling_steps=100, observe_loss_with_bm_direct_sampling=True, mode='train')
+2022-11-25 02:31:43.443464	folder path: saved/riemannian-diffusion/tori_ambient/General-64-0.001-10000-2.0-256-2-0-integration-100-12345
+2022-11-25 02:31:43.443636	Namespace(dataset='General', dataroot='data', saveroot='saved', expname='tori_ambient', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, bm_sampling_method='integration', bm_sampling_steps=100, observe_loss_with_bm_direct_sampling=True, mode='train')
+2022-11-25 02:32:17.863067	folder path: saved/riemannian-diffusion/tori_ambient/General-64-0.001-10000-2.0-256-2-0-integration-100-12345
+2022-11-25 02:32:17.863271	Namespace(dataset='General', dataroot='data', saveroot='saved', expname='tori_ambient', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, bm_sampling_method='integration', bm_sampling_steps=100, observe_loss_with_bm_direct_sampling=True, mode='train')
+2022-11-25 02:32:56.499452	folder path: saved/riemannian-diffusion/tori_ambient/General-64-0.001-10000-2.0-256-2-0-integration-100-12345
+2022-11-25 02:32:56.499625	Namespace(dataset='General', dataroot='data', saveroot='saved', expname='tori_ambient', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, bm_sampling_method='integration', bm_sampling_steps=100, observe_loss_with_bm_direct_sampling=True, mode='train')
+2022-11-25 02:33:09.274865	ConcatMLP(
+  (net): Sequential(
+    (0): Linear(in_features=3, out_features=256, bias=True)
+    (1): Swish()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Swish()
+    (4): Linear(in_features=256, out_features=2, bias=True)
+  )
+)
+2022-11-25 02:33:09.275035	cuda unavailable
+2022-11-25 02:33:09.275174	bm_sampling_method: integration.
+2022-11-25 02:33:09.275228	loading checkpoint
+2022-11-25 02:37:39.853489	folder path: saved/riemannian-diffusion/tori_ambient/General-64-0.001-10000-2.0-256-2-0-integration-100-12345
+2022-11-25 02:37:39.853848	Namespace(dataset='General', dataroot='data', saveroot='saved', expname='tori_ambient', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, bm_sampling_method='integration', bm_sampling_steps=100, observe_loss_with_bm_direct_sampling=True, mode='train')
+2022-11-25 02:37:52.993768	ConcatMLP(
+  (net): Sequential(
+    (0): Linear(in_features=3, out_features=256, bias=True)
+    (1): Swish()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Swish()
+    (4): Linear(in_features=256, out_features=2, bias=True)
+  )
+)
+2022-11-25 02:37:52.993951	cuda unavailable
+2022-11-25 02:37:52.994103	bm_sampling_method: integration.
+2022-11-25 02:37:52.994201	loading checkpoint
+2022-11-25 02:57:40.451624	folder path: saved/riemannian-diffusion/tori_ambient/General-64-0.001-10000-2.0-256-2-0-integration-100-12345
+2022-11-25 02:57:40.452265	Namespace(dataset='General', dataroot='data', saveroot='saved', expname='tori_ambient', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, bm_sampling_method='integration', bm_sampling_steps=100, observe_loss_with_bm_direct_sampling=True, mode='train')
+2022-11-25 02:57:53.157456	ConcatMLP(
+  (net): Sequential(
+    (0): Linear(in_features=3, out_features=256, bias=True)
+    (1): Swish()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Swish()
+    (4): Linear(in_features=256, out_features=2, bias=True)
+  )
+)
+2022-11-25 02:57:53.157662	cuda unavailable
+2022-11-25 02:57:53.157855	bm_sampling_method: integration.
+2022-11-25 02:57:53.157927	loading checkpoint
+2022-11-25 03:01:06.555493	folder path: saved/riemannian-diffusion/tori_ambient/General-64-0.001-10000-2.0-256-2-0-integration-100-12345
+2022-11-25 03:01:06.555859	Namespace(dataset='General', dataroot='data', saveroot='saved', expname='tori_ambient', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, bm_sampling_method='integration', bm_sampling_steps=100, observe_loss_with_bm_direct_sampling=True, mode='train')
+2022-11-25 03:01:19.561897	ConcatMLP(
+  (net): Sequential(
+    (0): Linear(in_features=3, out_features=256, bias=True)
+    (1): Swish()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Swish()
+    (4): Linear(in_features=256, out_features=2, bias=True)
+  )
+)
+2022-11-25 03:01:19.562343	cuda unavailable
+2022-11-25 03:01:19.562526	bm_sampling_method: integration.
+2022-11-25 03:01:19.562593	loading checkpoint
+2022-11-25 03:02:16.086477	folder path: saved/riemannian-diffusion/tori_ambient/General-64-0.001-10000-2.0-256-2-0-integration-100-12345
+2022-11-25 03:02:16.086628	Namespace(dataset='General', dataroot='data', saveroot='saved', expname='tori_ambient', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, bm_sampling_method='integration', bm_sampling_steps=100, observe_loss_with_bm_direct_sampling=True, mode='train')
+2022-11-25 03:02:29.053919	ConcatMLP(
+  (net): Sequential(
+    (0): Linear(in_features=3, out_features=256, bias=True)
+    (1): Swish()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Swish()
+    (4): Linear(in_features=256, out_features=2, bias=True)
+  )
+)
+2022-11-25 03:02:29.054133	cuda unavailable
+2022-11-25 03:02:29.054288	bm_sampling_method: integration.
+2022-11-25 03:02:29.054390	loading checkpoint
+2022-11-25 03:03:55.038866	folder path: saved/riemannian-diffusion/tori_ambient/General-64-0.001-10000-2.0-256-2-0-integration-100-12345
+2022-11-25 03:03:55.039021	Namespace(dataset='General', dataroot='data', saveroot='saved', expname='tori_ambient', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, bm_sampling_method='integration', bm_sampling_steps=100, observe_loss_with_bm_direct_sampling=True, mode='train')
+2022-11-25 03:04:07.766230	ConcatMLP(
+  (net): Sequential(
+    (0): Linear(in_features=3, out_features=256, bias=True)
+    (1): Swish()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Swish()
+    (4): Linear(in_features=256, out_features=2, bias=True)
+  )
+)
+2022-11-25 03:04:07.766729	cuda unavailable
+2022-11-25 03:04:07.766928	bm_sampling_method: integration.
+2022-11-25 03:04:07.767030	loading checkpoint
+2022-11-25 03:04:41.715235	folder path: saved/riemannian-diffusion/tori_ambient/General-64-0.001-10000-2.0-256-2-0-integration-100-12345
+2022-11-25 03:04:41.715846	Namespace(dataset='General', dataroot='data', saveroot='saved', expname='tori_ambient', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, bm_sampling_method='integration', bm_sampling_steps=100, observe_loss_with_bm_direct_sampling=True, mode='train')
+2022-11-25 03:04:55.013266	ConcatMLP(
+  (net): Sequential(
+    (0): Linear(in_features=3, out_features=256, bias=True)
+    (1): Swish()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Swish()
+    (4): Linear(in_features=256, out_features=2, bias=True)
+  )
+)
+2022-11-25 03:04:55.013494	cuda unavailable
+2022-11-25 03:04:55.013709	bm_sampling_method: integration.
+2022-11-25 03:04:55.013789	loading checkpoint
+2022-11-25 03:05:30.173747	folder path: saved/riemannian-diffusion/tori_ambient/General-64-0.001-10000-2.0-256-2-0-integration-100-12345
+2022-11-25 03:05:30.173934	Namespace(dataset='General', dataroot='data', saveroot='saved', expname='tori_ambient', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, bm_sampling_method='integration', bm_sampling_steps=100, observe_loss_with_bm_direct_sampling=True, mode='train')
+2022-11-25 03:05:43.165665	ConcatMLP(
+  (net): Sequential(
+    (0): Linear(in_features=3, out_features=256, bias=True)
+    (1): Swish()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Swish()
+    (4): Linear(in_features=256, out_features=2, bias=True)
+  )
+)
+2022-11-25 03:05:43.166071	cuda unavailable
+2022-11-25 03:05:43.166259	bm_sampling_method: integration.
+2022-11-25 03:05:43.166326	loading checkpoint
+2022-11-25 03:05:59.272526	folder path: saved/riemannian-diffusion/tori_ambient/General-64-0.001-10000-2.0-256-2-0-integration-100-12345
+2022-11-25 03:05:59.274004	Namespace(dataset='General', dataroot='data', saveroot='saved', expname='tori_ambient', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, bm_sampling_method='integration', bm_sampling_steps=100, observe_loss_with_bm_direct_sampling=True, mode='train')
+2022-11-25 03:06:12.341490	ConcatMLP(
+  (net): Sequential(
+    (0): Linear(in_features=3, out_features=256, bias=True)
+    (1): Swish()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Swish()
+    (4): Linear(in_features=256, out_features=2, bias=True)
+  )
+)
+2022-11-25 03:06:12.341995	cuda unavailable
+2022-11-25 03:06:12.342155	bm_sampling_method: integration.
+2022-11-25 03:06:12.342221	loading checkpoint
+2022-11-25 03:07:42.941871	folder path: saved/riemannian-diffusion/tori_ambient/General-64-0.001-10000-2.0-256-2-0-integration-100-12345
+2022-11-25 03:07:42.942003	Namespace(dataset='General', dataroot='data', saveroot='saved', expname='tori_ambient', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, bm_sampling_method='integration', bm_sampling_steps=100, observe_loss_with_bm_direct_sampling=True, mode='train')
+2022-11-25 03:07:44.044416	ConcatMLP(
+  (net): Sequential(
+    (0): Linear(in_features=5, out_features=256, bias=True)
+    (1): Swish()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Swish()
+    (4): Linear(in_features=256, out_features=4, bias=True)
+  )
+)
+2022-11-25 03:07:44.044719	cuda unavailable
+2022-11-25 03:07:44.048181	bm_sampling_method: integration.
+2022-11-25 03:07:44.048361	loading checkpoint
+2022-11-25 03:07:45.539823	Iteration 4100 	loss -0.3373473882675171
+2022-11-25 03:07:47.051929	Iteration 4200 	loss 1.415725588798523
+2022-11-25 03:08:13.887942	folder path: saved/riemannian-diffusion/tori_ambient/General-64-0.001-10000-2.0-256-2-0-integration-100-12345
+2022-11-25 03:08:13.888070	Namespace(dataset='General', dataroot='data', saveroot='saved', expname='tori_ambient', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, bm_sampling_method='integration', bm_sampling_steps=100, observe_loss_with_bm_direct_sampling=True, mode='train')
+2022-11-25 03:08:14.992260	ConcatMLP(
+  (net): Sequential(
+    (0): Linear(in_features=5, out_features=256, bias=True)
+    (1): Swish()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Swish()
+    (4): Linear(in_features=256, out_features=4, bias=True)
+  )
+)
+2022-11-25 03:08:14.992500	cuda unavailable
+2022-11-25 03:08:14.995803	bm_sampling_method: integration.
+2022-11-25 03:08:14.995982	loading checkpoint
+2022-11-25 03:09:10.206773	folder path: saved/riemannian-diffusion/tori_ambient/General-64-0.001-10000-2.0-256-2-0-integration-100-12345
+2022-11-25 03:09:10.206906	Namespace(dataset='General', dataroot='data', saveroot='saved', expname='tori_ambient', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, bm_sampling_method='integration', bm_sampling_steps=100, observe_loss_with_bm_direct_sampling=True, mode='train')
+2022-11-25 03:09:14.230907	folder path: saved/riemannian-diffusion/tori_ambient/General-64-0.001-10000-2.0-256-2-0-integration-100-12345
+2022-11-25 03:09:14.231096	Namespace(dataset='General', dataroot='data', saveroot='saved', expname='tori_ambient', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, bm_sampling_method='integration', bm_sampling_steps=100, observe_loss_with_bm_direct_sampling=True, mode='train')
+2022-11-25 03:09:27.404003	ConcatMLP(
+  (net): Sequential(
+    (0): Linear(in_features=5, out_features=256, bias=True)
+    (1): Swish()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Swish()
+    (4): Linear(in_features=256, out_features=4, bias=True)
+  )
+)
+2022-11-25 03:09:27.404539	cuda unavailable
+2022-11-25 03:09:27.404718	bm_sampling_method: integration.
+2022-11-25 03:09:27.404781	loading checkpoint
+2022-11-25 03:09:41.638368	Iteration 4100 	loss 3.510791778564453
+2022-11-25 03:12:16.749379	folder path: saved/riemannian-diffusion/tori_ambient/General-64-0.001-10000-2.0-256-2-0-integration-100-12345
+2022-11-25 03:12:16.749925	Namespace(dataset='General', dataroot='data', saveroot='saved', expname='tori_ambient', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, bm_sampling_method='integration', bm_sampling_steps=100, observe_loss_with_bm_direct_sampling=True, mode='train')
+2022-11-25 03:12:27.554917	folder path: saved/riemannian-diffusion/tori_ambient/General-64-0.001-10000-2.0-256-2-0-integration-100-12345
+2022-11-25 03:12:27.555088	Namespace(dataset='General', dataroot='data', saveroot='saved', expname='tori_ambient', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, bm_sampling_method='integration', bm_sampling_steps=100, observe_loss_with_bm_direct_sampling=True, mode='train')
+2022-11-25 03:14:27.255568	ConcatMLP(
+  (net): Sequential(
+    (0): Linear(in_features=5, out_features=256, bias=True)
+    (1): Swish()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Swish()
+    (4): Linear(in_features=256, out_features=4, bias=True)
+  )
+)
+2022-11-25 03:14:27.256079	cuda unavailable
+2022-11-25 03:14:27.256285	bm_sampling_method: integration.
+2022-11-25 03:14:27.256348	loading checkpoint
+2022-11-25 03:15:43.286786	folder path: saved/riemannian-diffusion/tori_ambient/General-64-0.001-10000-2.0-256-2-0-integration-100-12345
+2022-11-25 03:15:43.287206	Namespace(dataset='General', dataroot='data', saveroot='saved', expname='tori_ambient', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, bm_sampling_method='integration', bm_sampling_steps=100, observe_loss_with_bm_direct_sampling=True, mode='train')
+2022-11-25 03:17:43.320137	ConcatMLP(
+  (net): Sequential(
+    (0): Linear(in_features=5, out_features=256, bias=True)
+    (1): Swish()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Swish()
+    (4): Linear(in_features=256, out_features=4, bias=True)
+  )
+)
+2022-11-25 03:17:43.320638	cuda unavailable
+2022-11-25 03:17:43.320845	bm_sampling_method: integration.
+2022-11-25 03:17:43.320980	loading checkpoint
+2022-11-25 03:17:53.059633	Iteration 4100 	loss 3.430241346359253
+2022-11-25 12:39:56.480666	folder path: saved/riemannian-diffusion/tori_ambient/General-64-0.001-10000-2.0-256-2-0-integration-100-12345
+2022-11-25 12:39:56.481173	Namespace(dataset='General', dataroot='data', saveroot='saved', expname='tori_ambient', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, bm_sampling_method='integration', bm_sampling_steps=100, observe_loss_with_bm_direct_sampling=True, mode='train')
+2022-11-25 12:41:57.779986	ConcatMLP(
+  (net): Sequential(
+    (0): Linear(in_features=5, out_features=256, bias=True)
+    (1): Swish()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Swish()
+    (4): Linear(in_features=256, out_features=4, bias=True)
+  )
+)
+2022-11-25 12:41:57.780396	cuda unavailable
+2022-11-25 12:41:57.780594	bm_sampling_method: integration.
+2022-11-25 12:41:57.780657	loading checkpoint
+2022-11-25 12:42:01.868595	Iteration 4100 	loss 3.24387788772583
+2022-11-25 12:42:05.719853	Iteration 4200 	loss 2.945849657058716
+2022-11-25 12:42:09.587975	Iteration 4300 	loss 3.179631233215332
+2022-11-25 12:42:13.447619	Iteration 4400 	loss 3.421189069747925
+2022-11-25 12:42:17.325945	Iteration 4500 	loss 3.064851999282837
+2022-11-25 12:42:21.296317	Iteration 4600 	loss 3.346297025680542
+2022-11-25 12:42:25.116152	Iteration 4700 	loss 3.174074172973633
+2022-11-25 12:42:28.951491	Iteration 4800 	loss 3.129687786102295
+2022-11-25 12:42:32.867402	Iteration 4900 	loss 2.8979344367980957
+2022-11-25 12:42:36.921372	Iteration 5000 	loss 3.226900100708008
+2022-11-25 12:42:41.027074	Iteration 5100 	loss 3.043851613998413
+2022-11-25 12:42:44.914529	Iteration 5200 	loss 3.0824148654937744
+2022-11-25 12:42:48.725524	Iteration 5300 	loss 3.2351386547088623
+2022-11-25 12:42:52.402823	Iteration 5400 	loss 3.106311559677124
+2022-11-25 12:42:56.278292	Iteration 5500 	loss 3.1761128902435303
+2022-11-25 12:43:00.227942	Iteration 5600 	loss 3.0584521293640137
+2022-11-25 12:43:03.983087	Iteration 5700 	loss 3.2085177898406982
+2022-11-25 12:43:07.686124	Iteration 5800 	loss 3.534536600112915
+2022-11-25 12:43:11.344380	Iteration 5900 	loss 3.4358441829681396
+2022-11-25 12:43:15.170777	Iteration 6000 	loss 3.525161027908325
+2022-11-25 12:43:19.345355	Iteration 6100 	loss 3.2388784885406494
+2022-11-25 12:43:23.001504	Iteration 6200 	loss 2.7451510429382324
+2022-11-25 12:43:26.663481	Iteration 6300 	loss 3.0449869632720947
+2022-11-25 12:43:30.369030	Iteration 6400 	loss 3.0377511978149414
+2022-11-25 12:43:33.985612	Iteration 6500 	loss 3.1484713554382324
+2022-11-25 12:43:37.851914	Iteration 6600 	loss 3.038850784301758
+2022-11-25 12:43:41.565760	Iteration 6700 	loss 3.268272876739502
+2022-11-25 12:43:45.292855	Iteration 6800 	loss 3.0707027912139893
+2022-11-25 12:43:49.071065	Iteration 6900 	loss 3.0152170658111572
+2022-11-25 12:43:52.786109	Iteration 7000 	loss 3.196560859680176
+2022-11-25 12:43:56.624799	Iteration 7100 	loss 2.990753412246704
+2022-11-25 12:44:00.408591	Iteration 7200 	loss 3.2752466201782227
+2022-11-25 12:44:04.127250	Iteration 7300 	loss 3.3281612396240234
+2022-11-25 12:44:07.801643	Iteration 7400 	loss 3.1290061473846436
+2022-11-25 12:44:11.453791	Iteration 7500 	loss 2.8590784072875977
+2022-11-25 12:44:15.243495	Iteration 7600 	loss 3.101846933364868
+2022-11-25 12:44:18.891554	Iteration 7700 	loss 3.1512434482574463
+2022-11-25 12:44:22.525169	Iteration 7800 	loss 3.1411256790161133
+2022-11-25 12:44:26.184016	Iteration 7900 	loss 3.5716075897216797
+2022-11-25 12:44:29.828152	Iteration 8000 	loss 3.3775651454925537
+2022-11-25 12:44:33.745644	Iteration 8100 	loss 2.979515790939331
+2022-11-25 12:44:37.395837	Iteration 8200 	loss 3.2429556846618652
+2022-11-25 12:44:41.089736	Iteration 8300 	loss 2.8548707962036133
+2022-11-25 12:44:44.763620	Iteration 8400 	loss 3.12648868560791
+2022-11-25 12:44:48.435556	Iteration 8500 	loss 3.1162891387939453
+2022-11-25 12:44:52.289545	Iteration 8600 	loss 2.916918992996216
+2022-11-25 12:44:55.940111	Iteration 8700 	loss 3.006669521331787
+2022-11-25 12:44:59.606761	Iteration 8800 	loss 3.3572967052459717
+2022-11-25 12:45:03.380584	Iteration 8900 	loss 2.9240314960479736
+2022-11-25 12:45:07.086269	Iteration 9000 	loss 3.0486512184143066
+2022-11-25 12:45:11.069690	Iteration 9100 	loss 2.698390483856201
+2022-11-25 12:45:14.810814	Iteration 9200 	loss 3.4200010299682617
+2022-11-25 12:45:18.473810	Iteration 9300 	loss 3.0493338108062744
+2022-11-25 12:45:22.273814	Iteration 9400 	loss 3.1252427101135254
+2022-11-25 12:45:26.222283	Iteration 9500 	loss 2.848257303237915
+2022-11-25 12:45:30.014965	Iteration 9600 	loss 2.9097602367401123
+2022-11-25 12:45:33.708119	Iteration 9700 	loss 3.078522205352783
+2022-11-25 12:45:37.385451	Iteration 9800 	loss 3.1314399242401123
+2022-11-25 12:45:41.000604	Iteration 9900 	loss 3.2156689167022705
+2022-11-25 12:45:44.619938	Iteration 10000 	loss 3.707071304321289
+2022-11-25 12:45:48.494601	Iteration 10100 	loss 2.9769012928009033
+2022-11-25 12:45:52.123237	Iteration 10200 	loss 3.010742425918579
+2022-11-25 12:45:55.744025	Iteration 10300 	loss 3.090374708175659
+2022-11-25 12:45:59.374072	Iteration 10400 	loss 2.808194637298584
+2022-11-25 12:46:03.025681	Iteration 10500 	loss 3.2391676902770996
+2022-11-25 12:46:06.846955	Iteration 10600 	loss 3.680189609527588
+2022-11-25 12:46:10.629949	Iteration 10700 	loss 2.864377021789551
+2022-11-25 12:46:14.257380	Iteration 10800 	loss 3.0112602710723877
+2022-11-25 12:46:17.924876	Iteration 10900 	loss 3.138439178466797
+2022-11-25 12:46:21.576551	Iteration 11000 	loss 3.289775848388672
+2022-11-25 12:46:25.402188	Iteration 11100 	loss 2.8854329586029053
+2022-11-25 12:46:29.066601	Iteration 11200 	loss 3.228400945663452
+2022-11-25 12:46:32.839225	Iteration 11300 	loss 2.768219232559204
+2022-11-25 12:46:36.480509	Iteration 11400 	loss 2.9235165119171143
+2022-11-25 12:46:40.174395	Iteration 11500 	loss 2.988497018814087
+2022-11-25 12:46:44.020344	Iteration 11600 	loss 3.0283055305480957
+2022-11-25 12:46:47.746736	Iteration 11700 	loss 3.0907886028289795
+2022-11-25 12:46:51.469918	Iteration 11800 	loss 3.3254947662353516
+2022-11-25 12:46:55.196772	Iteration 11900 	loss 2.972548007965088
+2022-11-25 12:46:58.930240	Iteration 12000 	loss 3.2527408599853516
+2022-11-25 12:47:02.867034	Iteration 12100 	loss 3.0124430656433105
+2022-11-25 12:47:06.635825	Iteration 12200 	loss 3.187258243560791
+2022-11-25 12:47:10.361622	Iteration 12300 	loss 2.923943519592285
+2022-11-25 12:47:14.147591	Iteration 12400 	loss 3.512291431427002
+2022-11-25 12:47:17.918490	Iteration 12500 	loss 2.9515023231506348
+2022-11-25 12:47:22.000867	Iteration 12600 	loss 3.068892002105713
+2022-11-25 12:47:25.791434	Iteration 12700 	loss 3.230668067932129
+2022-11-25 12:47:29.587352	Iteration 12800 	loss 3.3811583518981934
+2022-11-25 12:47:33.372112	Iteration 12900 	loss 3.427517890930176
+2022-11-25 12:47:37.326510	Iteration 13000 	loss 2.796539545059204
+2022-11-25 12:47:41.425443	Iteration 13100 	loss 2.554302930831909
+2022-11-25 12:47:45.333792	Iteration 13200 	loss 3.374356746673584
+2022-11-25 12:47:49.262330	Iteration 13300 	loss 3.2863235473632812
+2022-11-25 12:47:53.211191	Iteration 13400 	loss 3.7170472145080566
+2022-11-25 12:47:57.034660	Iteration 13500 	loss 2.631054162979126
+2022-11-25 12:48:01.045143	Iteration 13600 	loss 3.1742327213287354
+2022-11-25 12:48:04.817196	Iteration 13700 	loss 2.7467403411865234
+2022-11-25 12:48:08.777476	Iteration 13800 	loss 3.5174384117126465
+2022-11-25 12:48:12.706853	Iteration 13900 	loss 2.7848286628723145
+2022-11-25 12:48:16.514936	Iteration 14000 	loss 3.057018518447876
+2022-11-25 12:48:20.533416	Iteration 14100 	loss 2.882173776626587
+2022-11-25 12:48:24.346267	Iteration 14200 	loss 3.0647528171539307
+2022-11-25 12:48:28.135366	Iteration 14300 	loss 2.9608073234558105
+2022-11-25 12:48:31.928426	Iteration 14400 	loss 2.7470860481262207
+2022-11-25 12:48:35.798404	Iteration 14500 	loss 3.152306079864502
+2022-11-25 12:48:39.773232	Iteration 14600 	loss 3.438572883605957
+2022-11-25 12:48:43.572060	Iteration 14700 	loss 3.310877799987793
+2022-11-25 12:48:47.329808	Iteration 14800 	loss 3.2935919761657715
+2022-11-25 12:48:51.120467	Iteration 14900 	loss 3.1095051765441895
+2022-11-25 12:48:54.877760	Iteration 15000 	loss 2.898372173309326
+2022-11-25 12:48:58.939649	Iteration 15100 	loss 2.9435203075408936
+2022-11-25 12:49:02.848562	Iteration 15200 	loss 3.296907663345337
+2022-11-25 12:49:06.792242	Iteration 15300 	loss 3.020521640777588
+2022-11-25 12:49:10.639568	Iteration 15400 	loss 3.05291748046875
+2022-11-25 12:49:14.534138	Iteration 15500 	loss 3.3741955757141113
+2022-11-25 12:49:18.674908	Iteration 15600 	loss 3.106990337371826
+2022-11-25 12:49:22.490988	Iteration 15700 	loss 2.835472822189331
+2022-11-25 12:49:26.286581	Iteration 15800 	loss 3.082787036895752
+2022-11-25 12:49:30.067595	Iteration 15900 	loss 2.734388828277588
+2022-11-25 12:49:33.836701	Iteration 16000 	loss 3.465944528579712
+2022-11-25 12:49:37.747033	Iteration 16100 	loss 2.9431474208831787
+2022-11-25 12:49:41.496500	Iteration 16200 	loss 3.252119541168213
+2022-11-25 12:49:45.318633	Iteration 16300 	loss 3.215355396270752
+2022-11-25 12:49:49.077772	Iteration 16400 	loss 3.14693021774292
+2022-12-12 20:36:07.298014	folder path: saved/riemannian-diffusion/tori_ambient/General-64-0.001-10000-2.0-256-2-0-integration-100-12345
+2022-12-12 20:36:07.298813	Namespace(dataset='General', dataroot='data', saveroot='saved', expname='tori_ambient', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, bm_sampling_method='integration', bm_sampling_steps=100, observe_loss_with_bm_direct_sampling=True, mode='train')
+2022-12-12 20:36:28.706821	folder path: saved/riemannian-diffusion/tori_ambient/General-64-0.001-10000-2.0-256-2-0-integration-100-12345
+2022-12-12 20:36:28.707044	Namespace(dataset='General', dataroot='data', saveroot='saved', expname='tori_ambient', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, bm_sampling_method='integration', bm_sampling_steps=100, observe_loss_with_bm_direct_sampling=True, mode='train')
+2022-12-12 20:36:44.105674	folder path: saved/riemannian-diffusion/tori_ambient/General-64-0.001-10000-2.0-256-2-0-integration-100-12345
+2022-12-12 20:36:44.105917	Namespace(dataset='General', dataroot='data', saveroot='saved', expname='tori_ambient', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, bm_sampling_method='integration', bm_sampling_steps=100, observe_loss_with_bm_direct_sampling=True, mode='train')
+2022-12-12 20:38:45.466762	ConcatMLP(
+  (net): Sequential(
+    (0): Linear(in_features=5, out_features=256, bias=True)
+    (1): Swish()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Swish()
+    (4): Linear(in_features=256, out_features=4, bias=True)
+  )
+)
+2022-12-12 20:38:45.467120	cuda unavailable
+2022-12-12 20:38:45.467404	bm_sampling_method: integration.
+2022-12-12 20:46:20.066499	folder path: saved/riemannian-diffusion/tori_ambient/General-64-0.001-10000-2.0-256-2-0-integration-100-12345
+2022-12-12 20:46:20.066962	Namespace(dataset='General', dataroot='data', saveroot='saved', expname='tori_ambient', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, bm_sampling_method='integration', bm_sampling_steps=100, observe_loss_with_bm_direct_sampling=True, mode='train')
+2022-12-12 20:48:20.188101	ConcatMLP(
+  (net): Sequential(
+    (0): Linear(in_features=5, out_features=256, bias=True)
+    (1): Swish()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Swish()
+    (4): Linear(in_features=256, out_features=4, bias=True)
+  )
+)
+2022-12-12 20:48:20.188388	cuda unavailable
+2022-12-12 20:48:20.188602	bm_sampling_method: integration.
+2022-12-12 20:48:20.188913	loading checkpoint
+2022-12-12 20:48:24.080567	Iteration 4100 	loss 3.3553740978240967
+2022-12-12 20:48:27.855709	Iteration 4200 	loss 3.4249396324157715
+2022-12-12 20:48:31.663339	Iteration 4300 	loss 3.644151210784912
+2022-12-12 20:48:35.491826	Iteration 4400 	loss 3.3734283447265625
+2022-12-12 20:48:39.287002	Iteration 4500 	loss 3.4665591716766357
+2022-12-12 20:48:43.274154	Iteration 4600 	loss 3.454926013946533
+2022-12-12 20:48:47.043351	Iteration 4700 	loss 3.2760117053985596
+2022-12-12 20:48:50.848080	Iteration 4800 	loss 3.248415470123291
+2022-12-12 20:48:54.688340	Iteration 4900 	loss 3.4621822834014893
+2022-12-12 20:48:58.440753	Iteration 5000 	loss 3.317117691040039
+2022-12-12 20:49:02.485040	Iteration 5100 	loss 3.307697057723999
+2022-12-12 20:49:06.329492	Iteration 5200 	loss 3.4814462661743164
+2022-12-12 20:49:10.253275	Iteration 5300 	loss 3.585336208343506
+2022-12-12 20:49:14.108600	Iteration 5400 	loss 3.1310296058654785
+2022-12-12 20:49:17.980819	Iteration 5500 	loss 3.368649959564209
+2022-12-12 20:49:22.064409	Iteration 5600 	loss 3.4863786697387695
+2022-12-12 20:49:25.914096	Iteration 5700 	loss 3.3989174365997314
+2022-12-12 20:49:29.766599	Iteration 5800 	loss 3.485718011856079
+2022-12-12 20:49:33.614247	Iteration 5900 	loss 3.2122292518615723
+2022-12-12 20:49:37.436490	Iteration 6000 	loss 3.3285274505615234
+2022-12-12 20:49:41.478368	Iteration 6100 	loss 3.225602865219116
+2022-12-12 20:49:45.390934	Iteration 6200 	loss 3.3241753578186035
+2022-12-12 20:49:49.251770	Iteration 6300 	loss 3.1089344024658203
+2022-12-12 20:49:53.140226	Iteration 6400 	loss 3.3492212295532227
+2022-12-12 20:49:57.039484	Iteration 6500 	loss 3.401275157928467
+2022-12-12 20:50:01.070857	Iteration 6600 	loss 3.0204803943634033
+2022-12-12 20:50:04.924846	Iteration 6700 	loss 3.0100910663604736
+2022-12-12 20:50:08.760701	Iteration 6800 	loss 3.3268392086029053
+2022-12-12 20:55:56.671404	folder path: saved/riemannian-diffusion/tori_ambient/General-64-0.001-10000-2.0-256-2-0-integration-100-12345
+2022-12-12 20:55:56.671778	Namespace(dataset='General', dataroot='data', saveroot='saved', expname='tori_ambient', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, bm_sampling_method='integration', bm_sampling_steps=100, observe_loss_with_bm_direct_sampling=True, mode='train')
+2022-12-12 20:57:56.861954	ConcatMLP(
+  (net): Sequential(
+    (0): Linear(in_features=5, out_features=256, bias=True)
+    (1): Swish()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Swish()
+    (4): Linear(in_features=256, out_features=4, bias=True)
+  )
+)
+2022-12-12 20:57:56.862336	cuda unavailable
+2022-12-12 20:57:56.862558	bm_sampling_method: integration.

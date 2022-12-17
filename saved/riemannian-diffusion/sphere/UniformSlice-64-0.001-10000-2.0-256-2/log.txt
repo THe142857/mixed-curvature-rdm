@@ -1,0 +1,4 @@
+2022-11-14 21:16:50.814776	folder path: saved/riemannian-diffusion/sphere/UniformSlice-64-0.001-10000-2.0-256-2
+2022-11-14 21:16:50.815222	Namespace(dataset='UniformSlice', dataroot='data', saveroot='saved', expname='sphere', print_every=100, sample_every=500, checkpoint_every=500, num_steps=100, T0=2.0, emb_size=256, hidden_layers=2, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000)
+2022-11-14 21:19:59.812738	folder path: saved/riemannian-diffusion/sphere/UniformSlice-64-0.001-10000-2.0-256-2
+2022-11-14 21:19:59.813314	Namespace(dataset='UniformSlice', dataroot='data', saveroot='saved', expname='sphere', print_every=100, sample_every=500, checkpoint_every=500, num_steps=100, T0=2.0, emb_size=256, hidden_layers=2, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000)

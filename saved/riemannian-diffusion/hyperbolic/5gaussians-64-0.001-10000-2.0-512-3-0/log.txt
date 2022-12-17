@@ -1,0 +1,622 @@
+2022-11-24 23:03:56.534422	folder path: saved/riemannian-diffusion/hyperbolic/5gaussians-64-0.001-10000-2.0-512-3-0
+2022-11-24 23:03:56.534566	Namespace(dataset='5gaussians', dataroot='data', saveroot='saved', expname='hyperbolic', print_every=100, sample_every=500, checkpoint_every=500, reload=False, evaluate_every=5000, evaluation_K=10, seed=12345, num_steps=100, evaluation_num_steps=100, T0=2.0, emb_size=512, hidden_layers=3, imp=0, drift_coeff=1.0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, wandb=False)
+2022-11-24 23:03:56.535607	cuda unavailable
+2022-11-24 23:03:56.554744	ConcatMLP(
+  (net): Sequential(
+    (0): ActNorm()
+    (1): Linear(in_features=4, out_features=512, bias=True)
+    (2): Swish()
+    (3): Linear(in_features=512, out_features=512, bias=True)
+    (4): Swish()
+    (5): Linear(in_features=512, out_features=512, bias=True)
+    (6): Swish()
+    (7): Linear(in_features=512, out_features=3, bias=True)
+  )
+)
+2022-11-24 23:03:56.652283	Iteration 1 	loss 20.920363456187616
+2022-11-24 23:04:02.639406	Iteration 100 	loss 19.591831267830507
+2022-11-24 23:04:08.530831	Iteration 200 	loss 19.74223420479552
+2022-11-24 23:04:14.480453	Iteration 300 	loss 20.29165460597769
+2022-11-24 23:04:20.474875	Iteration 400 	loss 18.27063280464554
+2022-11-24 23:04:26.435230	Iteration 500 	loss 17.429141171698927
+2022-11-24 23:56:42.973949	folder path: saved/riemannian-diffusion/hyperbolic/5gaussians-64-0.001-10000-2.0-512-3-0
+2022-11-24 23:56:42.974379	Namespace(dataset='5gaussians', dataroot='data', saveroot='saved', expname='hyperbolic', print_every=100, sample_every=500, checkpoint_every=500, reload=False, evaluate_every=5000, evaluation_K=10, seed=12345, num_steps=100, evaluation_num_steps=100, T0=2.0, emb_size=512, hidden_layers=3, imp=0, drift_coeff=1.0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, wandb=True)
+2022-11-24 23:56:58.939827	cuda unavailable
+2022-11-24 23:56:58.948998	ConcatMLP(
+  (net): Sequential(
+    (0): ActNorm()
+    (1): Linear(in_features=4, out_features=512, bias=True)
+    (2): Swish()
+    (3): Linear(in_features=512, out_features=512, bias=True)
+    (4): Swish()
+    (5): Linear(in_features=512, out_features=512, bias=True)
+    (6): Swish()
+    (7): Linear(in_features=512, out_features=3, bias=True)
+  )
+)
+2022-11-24 23:59:56.173025	folder path: saved/riemannian-diffusion/hyperbolic/5gaussians-64-0.001-10000-2.0-512-3-0
+2022-11-24 23:59:56.173163	Namespace(dataset='5gaussians', dataroot='data', saveroot='saved', expname='hyperbolic', print_every=100, sample_every=500, checkpoint_every=500, reload=False, evaluate_every=5000, evaluation_K=10, seed=12345, num_steps=100, evaluation_num_steps=100, T0=2.0, emb_size=512, hidden_layers=3, imp=0, drift_coeff=1.0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, wandb=True)
+2022-11-25 00:00:11.998316	cuda unavailable
+2022-11-25 00:00:12.005468	ConcatMLP(
+  (net): Sequential(
+    (0): ActNorm()
+    (1): Linear(in_features=4, out_features=512, bias=True)
+    (2): Swish()
+    (3): Linear(in_features=512, out_features=512, bias=True)
+    (4): Swish()
+    (5): Linear(in_features=512, out_features=512, bias=True)
+    (6): Swish()
+    (7): Linear(in_features=512, out_features=3, bias=True)
+  )
+)
+2022-11-25 00:00:15.975026	Iteration 1 	loss nan
+2022-11-25 00:00:24.768830	Iteration 100 	loss nan
+2022-11-25 00:00:33.913573	Iteration 200 	loss nan
+2022-11-25 00:00:43.173418	Iteration 300 	loss nan
+2022-11-25 00:00:52.360032	Iteration 400 	loss nan
+2022-11-25 00:01:01.581061	Iteration 500 	loss nan
+2022-11-25 00:15:44.247457	folder path: saved/riemannian-diffusion/hyperbolic/5gaussians-64-0.001-10000-2.0-512-3-0
+2022-11-25 00:15:44.247781	Namespace(dataset='5gaussians', dataroot='data', saveroot='saved', expname='hyperbolic', print_every=100, sample_every=500, checkpoint_every=500, reload=False, evaluate_every=5000, evaluation_K=10, seed=12345, num_steps=100, evaluation_num_steps=100, T0=2.0, emb_size=512, hidden_layers=3, imp=0, drift_coeff=1.0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, wandb=False)
+2022-11-25 00:15:44.249002	cuda unavailable
+2022-11-25 00:15:44.260052	ConcatMLP(
+  (net): Sequential(
+    (0): ActNorm()
+    (1): Linear(in_features=4, out_features=512, bias=True)
+    (2): Swish()
+    (3): Linear(in_features=512, out_features=512, bias=True)
+    (4): Swish()
+    (5): Linear(in_features=512, out_features=512, bias=True)
+    (6): Swish()
+    (7): Linear(in_features=512, out_features=3, bias=True)
+  )
+)
+2022-11-25 00:15:44.362051	Iteration 1 	loss 22.203620449437963
+2022-11-25 00:15:49.374427	Iteration 100 	loss 17.555798111727555
+2022-11-25 00:15:54.343871	Iteration 200 	loss 19.652550344230388
+2022-11-25 00:15:59.444402	Iteration 300 	loss 18.439413583438714
+2022-11-25 00:16:04.386329	Iteration 400 	loss 16.044155352974098
+2022-11-25 00:16:09.220979	Iteration 500 	loss 20.606099962391156
+2022-11-25 00:20:54.769153	folder path: saved/riemannian-diffusion/hyperbolic/5gaussians-64-0.001-10000-2.0-512-3-0
+2022-11-25 00:20:54.769612	Namespace(dataset='5gaussians', dataroot='data', saveroot='saved', expname='hyperbolic', print_every=100, sample_every=500, checkpoint_every=500, reload=False, evaluate_every=5000, evaluation_K=10, seed=12345, num_steps=100, evaluation_num_steps=100, T0=2.0, emb_size=512, hidden_layers=3, imp=0, drift_coeff=1.0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, wandb=True)
+2022-11-25 00:21:14.533101	cuda unavailable
+2022-11-25 00:21:14.540756	ConcatMLP(
+  (net): Sequential(
+    (0): ActNorm()
+    (1): Linear(in_features=4, out_features=512, bias=True)
+    (2): Swish()
+    (3): Linear(in_features=512, out_features=512, bias=True)
+    (4): Swish()
+    (5): Linear(in_features=512, out_features=512, bias=True)
+    (6): Swish()
+    (7): Linear(in_features=512, out_features=3, bias=True)
+  )
+)
+2022-11-25 00:21:19.286887	Iteration 1 	loss nan
+2022-11-25 00:21:30.549085	Iteration 100 	loss nan
+2022-11-25 00:23:54.871380	folder path: saved/riemannian-diffusion/hyperbolic/5gaussians-64-0.001-10000-2.0-512-3-0
+2022-11-25 00:23:54.871727	Namespace(dataset='5gaussians', dataroot='data', saveroot='saved', expname='hyperbolic', print_every=100, sample_every=500, checkpoint_every=500, reload=False, evaluate_every=5000, evaluation_K=10, seed=12345, num_steps=100, evaluation_num_steps=100, T0=2.0, emb_size=512, hidden_layers=3, imp=0, drift_coeff=1.0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, wandb=True)
+2022-11-25 00:24:11.945559	cuda unavailable
+2022-11-25 00:24:11.952787	ConcatMLP(
+  (net): Sequential(
+    (0): ActNorm()
+    (1): Linear(in_features=4, out_features=512, bias=True)
+    (2): Swish()
+    (3): Linear(in_features=512, out_features=512, bias=True)
+    (4): Swish()
+    (5): Linear(in_features=512, out_features=512, bias=True)
+    (6): Swish()
+    (7): Linear(in_features=512, out_features=3, bias=True)
+  )
+)
+2022-11-25 00:24:16.055079	Iteration 1 	loss nan
+2022-11-25 00:24:28.923610	Iteration 100 	loss nan
+2022-11-25 00:24:42.145417	Iteration 200 	loss nan
+2022-11-25 00:26:08.245265	folder path: saved/riemannian-diffusion/hyperbolic/5gaussians-64-0.001-10000-2.0-512-3-0
+2022-11-25 00:26:08.245387	Namespace(dataset='5gaussians', dataroot='data', saveroot='saved', expname='hyperbolic', print_every=100, sample_every=500, checkpoint_every=500, reload=False, evaluate_every=5000, evaluation_K=10, seed=12345, num_steps=100, evaluation_num_steps=100, T0=2.0, emb_size=512, hidden_layers=3, imp=0, drift_coeff=1.0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, wandb=True)
+2022-11-25 00:26:09.048433	cuda unavailable
+2022-11-25 00:26:09.056444	ConcatMLP(
+  (net): Sequential(
+    (0): ActNorm()
+    (1): Linear(in_features=4, out_features=512, bias=True)
+    (2): Swish()
+    (3): Linear(in_features=512, out_features=512, bias=True)
+    (4): Swish()
+    (5): Linear(in_features=512, out_features=512, bias=True)
+    (6): Swish()
+    (7): Linear(in_features=512, out_features=3, bias=True)
+  )
+)
+2022-11-25 00:26:43.918681	folder path: saved/riemannian-diffusion/hyperbolic/5gaussians-64-0.001-10000-2.0-512-3-0
+2022-11-25 00:26:43.918880	Namespace(dataset='5gaussians', dataroot='data', saveroot='saved', expname='hyperbolic', print_every=100, sample_every=500, checkpoint_every=500, reload=False, evaluate_every=5000, evaluation_K=10, seed=12345, num_steps=100, evaluation_num_steps=100, T0=2.0, emb_size=512, hidden_layers=3, imp=0, drift_coeff=1.0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, wandb=True)
+2022-11-25 00:26:44.706963	cuda unavailable
+2022-11-25 00:26:44.714899	ConcatMLP(
+  (net): Sequential(
+    (0): ActNorm()
+    (1): Linear(in_features=4, out_features=512, bias=True)
+    (2): Swish()
+    (3): Linear(in_features=512, out_features=512, bias=True)
+    (4): Swish()
+    (5): Linear(in_features=512, out_features=512, bias=True)
+    (6): Swish()
+    (7): Linear(in_features=512, out_features=3, bias=True)
+  )
+)
+2022-11-25 00:27:15.187258	folder path: saved/riemannian-diffusion/hyperbolic/5gaussians-64-0.001-10000-2.0-512-3-0
+2022-11-25 00:27:15.187448	Namespace(dataset='5gaussians', dataroot='data', saveroot='saved', expname='hyperbolic', print_every=100, sample_every=500, checkpoint_every=500, reload=False, evaluate_every=5000, evaluation_K=10, seed=12345, num_steps=100, evaluation_num_steps=100, T0=2.0, emb_size=512, hidden_layers=3, imp=0, drift_coeff=1.0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, wandb=True)
+2022-11-25 00:27:16.038009	cuda unavailable
+2022-11-25 00:27:16.046549	ConcatMLP(
+  (net): Sequential(
+    (0): ActNorm()
+    (1): Linear(in_features=4, out_features=512, bias=True)
+    (2): Swish()
+    (3): Linear(in_features=512, out_features=512, bias=True)
+    (4): Swish()
+    (5): Linear(in_features=512, out_features=512, bias=True)
+    (6): Swish()
+    (7): Linear(in_features=512, out_features=3, bias=True)
+  )
+)
+2022-11-25 00:27:27.186591	folder path: saved/riemannian-diffusion/hyperbolic/5gaussians-64-0.001-10000-2.0-512-3-0
+2022-11-25 00:27:27.186788	Namespace(dataset='5gaussians', dataroot='data', saveroot='saved', expname='hyperbolic', print_every=100, sample_every=500, checkpoint_every=500, reload=False, evaluate_every=5000, evaluation_K=10, seed=12345, num_steps=100, evaluation_num_steps=100, T0=2.0, emb_size=512, hidden_layers=3, imp=0, drift_coeff=1.0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, wandb=False)
+2022-11-25 00:27:27.187978	cuda unavailable
+2022-11-25 00:27:27.195066	ConcatMLP(
+  (net): Sequential(
+    (0): ActNorm()
+    (1): Linear(in_features=4, out_features=512, bias=True)
+    (2): Swish()
+    (3): Linear(in_features=512, out_features=512, bias=True)
+    (4): Swish()
+    (5): Linear(in_features=512, out_features=512, bias=True)
+    (6): Swish()
+    (7): Linear(in_features=512, out_features=3, bias=True)
+  )
+)
+2022-11-25 00:27:27.271051	Iteration 1 	loss 22.203620449437963
+2022-11-25 00:27:32.232336	Iteration 100 	loss 17.555798111727555
+2022-11-25 00:27:37.169832	folder path: saved/riemannian-diffusion/hyperbolic/5gaussians-64-0.001-10000-2.0-512-3-0
+2022-11-25 00:27:37.170021	Namespace(dataset='5gaussians', dataroot='data', saveroot='saved', expname='hyperbolic', print_every=100, sample_every=500, checkpoint_every=500, reload=False, evaluate_every=5000, evaluation_K=10, seed=12345, num_steps=100, evaluation_num_steps=100, T0=2.0, emb_size=512, hidden_layers=3, imp=0, drift_coeff=1.0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, wandb=False)
+2022-11-25 00:27:37.170970	cuda unavailable
+2022-11-25 00:27:37.178091	ConcatMLP(
+  (net): Sequential(
+    (0): ActNorm()
+    (1): Linear(in_features=4, out_features=512, bias=True)
+    (2): Swish()
+    (3): Linear(in_features=512, out_features=512, bias=True)
+    (4): Swish()
+    (5): Linear(in_features=512, out_features=512, bias=True)
+    (6): Swish()
+    (7): Linear(in_features=512, out_features=3, bias=True)
+  )
+)
+2022-11-25 00:27:37.251132	Iteration 1 	loss 22.203620449437963
+2022-11-25 00:27:41.966377	Iteration 100 	loss 17.555798111727555
+2022-11-25 00:27:46.730683	Iteration 200 	loss 19.652550344230388
+2022-11-25 00:27:51.613170	Iteration 300 	loss 18.439413583438714
+2022-11-25 00:27:58.372406	folder path: saved/riemannian-diffusion/hyperbolic/5gaussians-64-0.001-10000-2.0-512-3-0
+2022-11-25 00:27:58.372692	Namespace(dataset='5gaussians', dataroot='data', saveroot='saved', expname='hyperbolic', print_every=100, sample_every=500, checkpoint_every=500, reload=False, evaluate_every=5000, evaluation_K=10, seed=12345, num_steps=100, evaluation_num_steps=100, T0=2.0, emb_size=512, hidden_layers=3, imp=0, drift_coeff=1.0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, wandb=True)
+2022-11-25 00:27:59.176779	cuda unavailable
+2022-11-25 00:27:59.185537	ConcatMLP(
+  (net): Sequential(
+    (0): ActNorm()
+    (1): Linear(in_features=4, out_features=512, bias=True)
+    (2): Swish()
+    (3): Linear(in_features=512, out_features=512, bias=True)
+    (4): Swish()
+    (5): Linear(in_features=512, out_features=512, bias=True)
+    (6): Swish()
+    (7): Linear(in_features=512, out_features=3, bias=True)
+  )
+)
+2022-11-25 00:28:23.216906	folder path: saved/riemannian-diffusion/hyperbolic/5gaussians-64-0.001-10000-2.0-512-3-0
+2022-11-25 00:28:23.217101	Namespace(dataset='5gaussians', dataroot='data', saveroot='saved', expname='hyperbolic', print_every=100, sample_every=500, checkpoint_every=500, reload=False, evaluate_every=5000, evaluation_K=10, seed=12345, num_steps=100, evaluation_num_steps=100, T0=2.0, emb_size=512, hidden_layers=3, imp=0, drift_coeff=1.0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, wandb=True)
+2022-11-25 00:28:24.011303	cuda unavailable
+2022-11-25 00:28:24.020312	ConcatMLP(
+  (net): Sequential(
+    (0): ActNorm()
+    (1): Linear(in_features=4, out_features=512, bias=True)
+    (2): Swish()
+    (3): Linear(in_features=512, out_features=512, bias=True)
+    (4): Swish()
+    (5): Linear(in_features=512, out_features=512, bias=True)
+    (6): Swish()
+    (7): Linear(in_features=512, out_features=3, bias=True)
+  )
+)
+2022-11-25 00:28:27.928124	Iteration 1 	loss 1549094965.6989932
+2022-11-25 00:28:32.674377	Iteration 100 	loss 5571.324412934759
+2022-11-25 00:28:37.385712	Iteration 200 	loss 222124.65012491678
+2022-11-25 00:28:42.276466	Iteration 300 	loss 3531.2377075767163
+2022-11-25 00:28:47.237682	Iteration 400 	loss 457224.00318770675
+2022-11-25 00:28:52.159624	Iteration 500 	loss 443.59824533082195
+2022-11-25 00:30:00.529053	folder path: saved/riemannian-diffusion/hyperbolic/5gaussians-64-0.001-10000-2.0-512-3-0
+2022-11-25 00:30:00.529432	Namespace(dataset='5gaussians', dataroot='data', saveroot='saved', expname='hyperbolic', print_every=100, sample_every=500, checkpoint_every=500, reload=False, evaluate_every=5000, evaluation_K=10, seed=12345, num_steps=100, evaluation_num_steps=100, T0=2.0, emb_size=512, hidden_layers=3, imp=0, drift_coeff=1.0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, wandb=True)
+2022-11-25 00:30:19.438681	cuda unavailable
+2022-11-25 00:30:19.447683	ConcatMLP(
+  (net): Sequential(
+    (0): ActNorm()
+    (1): Linear(in_features=4, out_features=512, bias=True)
+    (2): Swish()
+    (3): Linear(in_features=512, out_features=512, bias=True)
+    (4): Swish()
+    (5): Linear(in_features=512, out_features=512, bias=True)
+    (6): Swish()
+    (7): Linear(in_features=512, out_features=3, bias=True)
+  )
+)
+2022-11-25 00:30:24.264064	Iteration 1 	loss nan
+2022-11-25 00:32:19.925186	folder path: saved/riemannian-diffusion/hyperbolic/5gaussians-64-0.001-10000-2.0-512-3-0
+2022-11-25 00:32:19.925677	Namespace(dataset='5gaussians', dataroot='data', saveroot='saved', expname='hyperbolic', print_every=100, sample_every=500, checkpoint_every=500, reload=False, evaluate_every=5000, evaluation_K=10, seed=12345, num_steps=100, evaluation_num_steps=100, T0=2.0, emb_size=512, hidden_layers=3, imp=0, drift_coeff=1.0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, wandb=True)
+2022-11-25 00:32:38.704992	cuda unavailable
+2022-11-25 00:32:38.714489	ConcatMLP(
+  (net): Sequential(
+    (0): ActNorm()
+    (1): Linear(in_features=4, out_features=512, bias=True)
+    (2): Swish()
+    (3): Linear(in_features=512, out_features=512, bias=True)
+    (4): Swish()
+    (5): Linear(in_features=512, out_features=512, bias=True)
+    (6): Swish()
+    (7): Linear(in_features=512, out_features=3, bias=True)
+  )
+)
+2022-11-25 00:32:43.476274	Iteration 1 	loss nan
+2022-11-25 00:33:27.346555	folder path: saved/riemannian-diffusion/hyperbolic/5gaussians-64-0.001-10000-2.0-512-3-0
+2022-11-25 00:33:27.346757	Namespace(dataset='5gaussians', dataroot='data', saveroot='saved', expname='hyperbolic', print_every=100, sample_every=500, checkpoint_every=500, reload=False, evaluate_every=5000, evaluation_K=10, seed=12345, num_steps=100, evaluation_num_steps=100, T0=2.0, emb_size=512, hidden_layers=3, imp=0, drift_coeff=1.0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, wandb=True)
+2022-11-25 00:33:45.950982	cuda unavailable
+2022-11-25 00:33:45.959648	ConcatMLP(
+  (net): Sequential(
+    (0): ActNorm()
+    (1): Linear(in_features=4, out_features=512, bias=True)
+    (2): Swish()
+    (3): Linear(in_features=512, out_features=512, bias=True)
+    (4): Swish()
+    (5): Linear(in_features=512, out_features=512, bias=True)
+    (6): Swish()
+    (7): Linear(in_features=512, out_features=3, bias=True)
+  )
+)
+2022-11-25 00:33:50.681006	Iteration 1 	loss nan
+2022-11-25 00:35:55.694974	folder path: saved/riemannian-diffusion/hyperbolic/5gaussians-64-0.001-10000-2.0-512-3-0
+2022-11-25 00:35:55.695171	Namespace(dataset='5gaussians', dataroot='data', saveroot='saved', expname='hyperbolic', print_every=100, sample_every=500, checkpoint_every=500, reload=False, evaluate_every=5000, evaluation_K=10, seed=12345, num_steps=100, evaluation_num_steps=100, T0=2.0, emb_size=512, hidden_layers=3, imp=0, drift_coeff=1.0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, wandb=True)
+2022-11-25 00:36:14.380443	cuda unavailable
+2022-11-25 00:36:14.389194	ConcatMLP(
+  (net): Sequential(
+    (0): ActNorm()
+    (1): Linear(in_features=4, out_features=512, bias=True)
+    (2): Swish()
+    (3): Linear(in_features=512, out_features=512, bias=True)
+    (4): Swish()
+    (5): Linear(in_features=512, out_features=512, bias=True)
+    (6): Swish()
+    (7): Linear(in_features=512, out_features=3, bias=True)
+  )
+)
+2022-11-25 00:36:19.187918	Iteration 1 	loss nan
+2022-11-25 00:36:50.273310	folder path: saved/riemannian-diffusion/hyperbolic/5gaussians-64-0.001-10000-2.0-512-3-0
+2022-11-25 00:36:50.273655	Namespace(dataset='5gaussians', dataroot='data', saveroot='saved', expname='hyperbolic', print_every=100, sample_every=500, checkpoint_every=500, reload=False, evaluate_every=5000, evaluation_K=10, seed=12345, num_steps=100, evaluation_num_steps=100, T0=2.0, emb_size=512, hidden_layers=3, imp=0, drift_coeff=1.0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, wandb=True)
+2022-11-25 00:37:09.294365	cuda unavailable
+2022-11-25 00:37:09.302585	ConcatMLP(
+  (net): Sequential(
+    (0): ActNorm()
+    (1): Linear(in_features=4, out_features=512, bias=True)
+    (2): Swish()
+    (3): Linear(in_features=512, out_features=512, bias=True)
+    (4): Swish()
+    (5): Linear(in_features=512, out_features=512, bias=True)
+    (6): Swish()
+    (7): Linear(in_features=512, out_features=3, bias=True)
+  )
+)
+2022-11-25 00:37:14.046952	Iteration 1 	loss nan
+2022-11-25 00:37:46.396809	folder path: saved/riemannian-diffusion/hyperbolic/5gaussians-64-0.001-10000-2.0-512-3-0
+2022-11-25 00:37:46.397020	Namespace(dataset='5gaussians', dataroot='data', saveroot='saved', expname='hyperbolic', print_every=100, sample_every=500, checkpoint_every=500, reload=False, evaluate_every=5000, evaluation_K=10, seed=12345, num_steps=100, evaluation_num_steps=100, T0=2.0, emb_size=512, hidden_layers=3, imp=0, drift_coeff=1.0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, wandb=True)
+2022-11-25 00:38:05.077180	cuda unavailable
+2022-11-25 00:38:05.085257	ConcatMLP(
+  (net): Sequential(
+    (0): ActNorm()
+    (1): Linear(in_features=4, out_features=512, bias=True)
+    (2): Swish()
+    (3): Linear(in_features=512, out_features=512, bias=True)
+    (4): Swish()
+    (5): Linear(in_features=512, out_features=512, bias=True)
+    (6): Swish()
+    (7): Linear(in_features=512, out_features=3, bias=True)
+  )
+)
+2022-11-25 00:38:09.817956	Iteration 1 	loss nan
+2022-11-25 00:38:30.652053	folder path: saved/riemannian-diffusion/hyperbolic/5gaussians-64-0.001-10000-2.0-512-3-0
+2022-11-25 00:38:30.652251	Namespace(dataset='5gaussians', dataroot='data', saveroot='saved', expname='hyperbolic', print_every=100, sample_every=500, checkpoint_every=500, reload=False, evaluate_every=5000, evaluation_K=10, seed=12345, num_steps=100, evaluation_num_steps=100, T0=2.0, emb_size=512, hidden_layers=3, imp=0, drift_coeff=1.0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, wandb=True)
+2022-11-25 00:38:49.247603	cuda unavailable
+2022-11-25 00:38:49.257227	ConcatMLP(
+  (net): Sequential(
+    (0): ActNorm()
+    (1): Linear(in_features=4, out_features=512, bias=True)
+    (2): Swish()
+    (3): Linear(in_features=512, out_features=512, bias=True)
+    (4): Swish()
+    (5): Linear(in_features=512, out_features=512, bias=True)
+    (6): Swish()
+    (7): Linear(in_features=512, out_features=3, bias=True)
+  )
+)
+2022-11-25 00:38:53.962380	Iteration 1 	loss nan
+2022-11-25 00:39:35.935199	Iteration 600 	loss 22288.218873319056
+2022-11-25 00:39:39.206855	folder path: saved/riemannian-diffusion/hyperbolic/5gaussians-64-0.001-10000-2.0-512-3-0
+2022-11-25 00:39:39.207078	Namespace(dataset='5gaussians', dataroot='data', saveroot='saved', expname='hyperbolic', print_every=100, sample_every=500, checkpoint_every=500, reload=False, evaluate_every=5000, evaluation_K=10, seed=12345, num_steps=100, evaluation_num_steps=100, T0=2.0, emb_size=512, hidden_layers=3, imp=0, drift_coeff=1.0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, wandb=True)
+2022-11-25 00:39:41.303380	Iteration 700 	loss 415401.8655399567
+2022-11-25 00:39:46.855215	Iteration 800 	loss 69.48497724773563
+2022-11-25 00:39:52.294739	Iteration 900 	loss 25228.90818195373
+2022-11-25 00:39:55.923857	cuda unavailable
+2022-11-25 00:39:55.932076	ConcatMLP(
+  (net): Sequential(
+    (0): ActNorm()
+    (1): Linear(in_features=4, out_features=512, bias=True)
+    (2): Swish()
+    (3): Linear(in_features=512, out_features=512, bias=True)
+    (4): Swish()
+    (5): Linear(in_features=512, out_features=512, bias=True)
+    (6): Swish()
+    (7): Linear(in_features=512, out_features=3, bias=True)
+  )
+)
+2022-11-25 00:39:58.031073	Iteration 1000 	loss 55.71423145481833
+2022-11-25 00:40:00.631887	Iteration 1 	loss nan
+2022-11-25 00:40:15.469328	folder path: saved/riemannian-diffusion/hyperbolic/5gaussians-64-0.001-10000-2.0-512-3-0
+2022-11-25 00:40:15.469527	Namespace(dataset='5gaussians', dataroot='data', saveroot='saved', expname='hyperbolic', print_every=100, sample_every=500, checkpoint_every=500, reload=False, evaluate_every=5000, evaluation_K=10, seed=12345, num_steps=100, evaluation_num_steps=100, T0=2.0, emb_size=512, hidden_layers=3, imp=0, drift_coeff=1.0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, wandb=True)
+2022-11-25 00:40:34.931042	cuda unavailable
+2022-11-25 00:40:34.940177	ConcatMLP(
+  (net): Sequential(
+    (0): ActNorm()
+    (1): Linear(in_features=4, out_features=512, bias=True)
+    (2): Swish()
+    (3): Linear(in_features=512, out_features=512, bias=True)
+    (4): Swish()
+    (5): Linear(in_features=512, out_features=512, bias=True)
+    (6): Swish()
+    (7): Linear(in_features=512, out_features=3, bias=True)
+  )
+)
+2022-11-25 00:40:39.789928	Iteration 1 	loss nan
+2022-11-25 00:42:53.226840	folder path: saved/riemannian-diffusion/hyperbolic/5gaussians-64-0.001-10000-2.0-512-3-0
+2022-11-25 00:42:53.227265	Namespace(dataset='5gaussians', dataroot='data', saveroot='saved', expname='hyperbolic', print_every=100, sample_every=500, checkpoint_every=500, reload=False, evaluate_every=5000, evaluation_K=10, seed=12345, num_steps=100, evaluation_num_steps=100, T0=2.0, emb_size=512, hidden_layers=3, imp=0, drift_coeff=1.0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, wandb=True)
+2022-11-25 00:43:12.083018	cuda unavailable
+2022-11-25 00:43:12.091600	ConcatMLP(
+  (net): Sequential(
+    (0): ActNorm()
+    (1): Linear(in_features=4, out_features=512, bias=True)
+    (2): Swish()
+    (3): Linear(in_features=512, out_features=512, bias=True)
+    (4): Swish()
+    (5): Linear(in_features=512, out_features=512, bias=True)
+    (6): Swish()
+    (7): Linear(in_features=512, out_features=3, bias=True)
+  )
+)
+2022-11-25 00:43:17.117539	Iteration 1 	loss nan
+2022-11-25 00:43:40.312976	Iteration 100 	loss nan
+2022-11-25 00:44:05.183861	Iteration 200 	loss nan
+2022-11-25 00:44:29.995116	Iteration 300 	loss nan
+2022-11-25 00:50:53.142959	Iteration 1100 	loss 21.71255382617906
+2022-11-25 00:50:58.170803	Iteration 1200 	loss 25.078755670626872
+2022-11-25 00:51:03.015495	Iteration 1300 	loss 116.04427232329871
+2022-11-25 00:51:07.833461	Iteration 1400 	loss 22.338470290647827
+2022-11-25 00:51:12.687092	Iteration 1500 	loss 135.46173995603294
+2022-11-25 00:52:33.184782	folder path: saved/riemannian-diffusion/hyperbolic/5gaussians-64-0.001-10000-2.0-512-3-0
+2022-11-25 00:52:33.184886	Namespace(dataset='5gaussians', dataroot='data', saveroot='saved', expname='hyperbolic', print_every=100, sample_every=500, checkpoint_every=500, reload=False, evaluate_every=5000, evaluation_K=10, seed=12345, num_steps=100, evaluation_num_steps=100, T0=2.0, emb_size=512, hidden_layers=3, imp=0, drift_coeff=1.0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, wandb=True)
+2022-11-25 00:52:33.997922	cuda unavailable
+2022-11-25 00:52:34.006719	ConcatMLP(
+  (net): Sequential(
+    (0): ActNorm()
+    (1): Linear(in_features=4, out_features=512, bias=True)
+    (2): Swish()
+    (3): Linear(in_features=512, out_features=512, bias=True)
+    (4): Swish()
+    (5): Linear(in_features=512, out_features=512, bias=True)
+    (6): Swish()
+    (7): Linear(in_features=512, out_features=3, bias=True)
+  )
+)
+2022-11-25 00:52:37.877975	Iteration 1 	loss 1549094965.6989932
+2022-11-25 00:52:42.827797	Iteration 100 	loss 5571.324412934759
+2022-11-25 00:52:47.759262	Iteration 200 	loss 222124.65012491678
+2022-11-25 00:52:52.559449	Iteration 300 	loss 3531.2377075767163
+2022-11-25 00:52:57.505111	Iteration 400 	loss 457224.00318770675
+2022-11-25 00:53:02.311078	Iteration 500 	loss 443.59824533082195
+2022-11-25 00:59:04.212768	folder path: saved/riemannian-diffusion/hyperbolic/5gaussians-64-0.001-10000-2.0-512-3-0
+2022-11-25 00:59:04.213145	Namespace(dataset='5gaussians', dataroot='data', saveroot='saved', expname='hyperbolic', print_every=100, sample_every=500, checkpoint_every=500, reload=False, evaluate_every=5000, evaluation_K=10, seed=12345, num_steps=100, evaluation_num_steps=100, T0=2.0, emb_size=512, hidden_layers=3, imp=0, drift_coeff=1.0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, wandb=True)
+2022-11-25 00:59:10.560788	folder path: saved/riemannian-diffusion/hyperbolic/5gaussians-64-0.001-10000-2.0-512-3-0
+2022-11-25 00:59:10.561005	Namespace(dataset='5gaussians', dataroot='data', saveroot='saved', expname='hyperbolic', print_every=100, sample_every=500, checkpoint_every=500, reload=False, evaluate_every=5000, evaluation_K=10, seed=12345, num_steps=100, evaluation_num_steps=100, T0=2.0, emb_size=512, hidden_layers=3, imp=0, drift_coeff=1.0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, wandb=True)
+2022-11-25 00:59:11.419789	cuda unavailable
+2022-11-25 00:59:11.429211	ConcatMLP(
+  (net): Sequential(
+    (0): ActNorm()
+    (1): Linear(in_features=4, out_features=512, bias=True)
+    (2): Swish()
+    (3): Linear(in_features=512, out_features=512, bias=True)
+    (4): Swish()
+    (5): Linear(in_features=512, out_features=512, bias=True)
+    (6): Swish()
+    (7): Linear(in_features=512, out_features=3, bias=True)
+  )
+)
+2022-11-25 00:59:15.701208	Iteration 1 	loss 1549094965.6989932
+2022-11-25 00:59:21.209737	Iteration 100 	loss 5571.324412934759
+2022-11-25 00:59:26.735132	Iteration 200 	loss 222124.65012491678
+2022-11-25 00:59:32.281013	Iteration 300 	loss 3531.2377075767163
+2022-11-25 00:59:37.845483	Iteration 400 	loss 457224.00318770675
+2022-11-25 00:59:43.582145	Iteration 500 	loss 443.59824533082195
+2022-11-25 01:03:15.228968	folder path: saved/riemannian-diffusion/hyperbolic/5gaussians-64-0.001-10000-2.0-512-3-0
+2022-11-25 01:03:15.229364	Namespace(dataset='5gaussians', dataroot='data', saveroot='saved', expname='hyperbolic', print_every=100, sample_every=500, checkpoint_every=500, reload=False, evaluate_every=5000, evaluation_K=10, seed=12345, num_steps=100, evaluation_num_steps=100, T0=2.0, emb_size=512, hidden_layers=3, imp=0, drift_coeff=1.0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, wandb=True)
+2022-11-25 01:03:16.048727	cuda unavailable
+2022-11-25 01:03:16.057491	ConcatMLP(
+  (net): Sequential(
+    (0): ActNorm()
+    (1): Linear(in_features=4, out_features=512, bias=True)
+    (2): Swish()
+    (3): Linear(in_features=512, out_features=512, bias=True)
+    (4): Swish()
+    (5): Linear(in_features=512, out_features=512, bias=True)
+    (6): Swish()
+    (7): Linear(in_features=512, out_features=3, bias=True)
+  )
+)
+2022-11-25 01:03:20.032768	Iteration 1 	loss 1549094965.6989932
+2022-11-25 01:03:25.048619	Iteration 100 	loss 5571.324412934759
+2022-11-25 01:03:30.112651	Iteration 200 	loss 222124.65012491678
+2022-11-25 01:03:35.159990	Iteration 300 	loss 3531.2377075767163
+2022-11-25 01:03:40.206804	Iteration 400 	loss 457224.00318770675
+2022-11-25 01:03:45.247172	Iteration 500 	loss 443.59824533082195
+2022-11-25 01:09:45.349984	folder path: saved/riemannian-diffusion/hyperbolic/5gaussians-64-0.001-10000-2.0-512-3-0
+2022-11-25 01:09:45.350277	Namespace(dataset='5gaussians', dataroot='data', saveroot='saved', expname='hyperbolic', print_every=100, sample_every=500, checkpoint_every=500, reload=False, evaluate_every=5000, evaluation_K=10, seed=12345, num_steps=100, evaluation_num_steps=100, T0=2.0, emb_size=512, hidden_layers=3, imp=0, drift_coeff=1.0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, wandb=True)
+2022-11-25 01:09:52.949377	folder path: saved/riemannian-diffusion/hyperbolic/5gaussians-64-0.001-10000-2.0-512-3-0
+2022-11-25 01:09:52.949550	Namespace(dataset='5gaussians', dataroot='data', saveroot='saved', expname='hyperbolic', print_every=100, sample_every=500, checkpoint_every=500, reload=False, evaluate_every=5000, evaluation_K=10, seed=12345, num_steps=100, evaluation_num_steps=100, T0=2.0, emb_size=512, hidden_layers=3, imp=0, drift_coeff=1.0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, wandb=True)
+2022-11-25 01:10:08.546099	cuda unavailable
+2022-11-25 01:10:08.549185	ConcatMLP(
+  (net): Sequential(
+    (0): ActNorm()
+    (1): Linear(in_features=4, out_features=512, bias=True)
+    (2): Swish()
+    (3): Linear(in_features=512, out_features=512, bias=True)
+    (4): Swish()
+    (5): Linear(in_features=512, out_features=512, bias=True)
+    (6): Swish()
+    (7): Linear(in_features=512, out_features=3, bias=True)
+  )
+)
+2022-11-25 01:11:45.062275	folder path: saved/riemannian-diffusion/hyperbolic/5gaussians-64-0.001-10000-2.0-512-3-0
+2022-11-25 01:11:45.062448	Namespace(dataset='5gaussians', dataroot='data', saveroot='saved', expname='hyperbolic', print_every=100, sample_every=500, checkpoint_every=500, reload=False, evaluate_every=5000, evaluation_K=10, seed=12345, num_steps=100, evaluation_num_steps=100, T0=2.0, emb_size=512, hidden_layers=3, imp=0, drift_coeff=1.0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, wandb=True)
+2022-11-25 01:12:01.392381	cuda unavailable
+2022-11-25 01:12:01.395322	ConcatMLP(
+  (net): Sequential(
+    (0): ActNorm()
+    (1): Linear(in_features=4, out_features=512, bias=True)
+    (2): Swish()
+    (3): Linear(in_features=512, out_features=512, bias=True)
+    (4): Swish()
+    (5): Linear(in_features=512, out_features=512, bias=True)
+    (6): Swish()
+    (7): Linear(in_features=512, out_features=3, bias=True)
+  )
+)
+2022-11-25 01:12:40.764565	folder path: saved/riemannian-diffusion/hyperbolic/5gaussians-64-0.001-10000-2.0-512-3-0
+2022-11-25 01:12:40.764728	Namespace(dataset='5gaussians', dataroot='data', saveroot='saved', expname='hyperbolic', print_every=100, sample_every=500, checkpoint_every=500, reload=False, evaluate_every=5000, evaluation_K=10, seed=12345, num_steps=100, evaluation_num_steps=100, T0=2.0, emb_size=512, hidden_layers=3, imp=0, drift_coeff=1.0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, wandb=True)
+2022-11-25 01:12:56.901402	cuda unavailable
+2022-11-25 01:12:56.904509	ConcatMLP(
+  (net): Sequential(
+    (0): ActNorm()
+    (1): Linear(in_features=4, out_features=512, bias=True)
+    (2): Swish()
+    (3): Linear(in_features=512, out_features=512, bias=True)
+    (4): Swish()
+    (5): Linear(in_features=512, out_features=512, bias=True)
+    (6): Swish()
+    (7): Linear(in_features=512, out_features=3, bias=True)
+  )
+)
+2022-11-25 01:15:09.636392	folder path: saved/riemannian-diffusion/hyperbolic/5gaussians-64-0.001-10000-2.0-512-3-0
+2022-11-25 01:15:09.636526	Namespace(dataset='5gaussians', dataroot='data', saveroot='saved', expname='hyperbolic', print_every=100, sample_every=500, checkpoint_every=500, reload=False, evaluate_every=5000, evaluation_K=10, seed=12345, num_steps=100, evaluation_num_steps=100, T0=2.0, emb_size=512, hidden_layers=3, imp=0, drift_coeff=1.0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, wandb=True)
+2022-11-25 01:15:25.461155	cuda unavailable
+2022-11-25 01:15:25.464356	ConcatMLP(
+  (net): Sequential(
+    (0): ActNorm()
+    (1): Linear(in_features=4, out_features=512, bias=True)
+    (2): Swish()
+    (3): Linear(in_features=512, out_features=512, bias=True)
+    (4): Swish()
+    (5): Linear(in_features=512, out_features=512, bias=True)
+    (6): Swish()
+    (7): Linear(in_features=512, out_features=3, bias=True)
+  )
+)
+2022-11-25 01:16:15.731121	folder path: saved/riemannian-diffusion/hyperbolic/5gaussians-64-0.001-10000-2.0-512-3-0
+2022-11-25 01:16:15.731276	Namespace(dataset='5gaussians', dataroot='data', saveroot='saved', expname='hyperbolic', print_every=100, sample_every=500, checkpoint_every=500, reload=False, evaluate_every=5000, evaluation_K=10, seed=12345, num_steps=100, evaluation_num_steps=100, T0=2.0, emb_size=512, hidden_layers=3, imp=0, drift_coeff=1.0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, wandb=True)
+2022-11-25 01:16:31.477694	cuda unavailable
+2022-11-25 01:16:31.480664	ConcatMLP(
+  (net): Sequential(
+    (0): ActNorm()
+    (1): Linear(in_features=4, out_features=512, bias=True)
+    (2): Swish()
+    (3): Linear(in_features=512, out_features=512, bias=True)
+    (4): Swish()
+    (5): Linear(in_features=512, out_features=512, bias=True)
+    (6): Swish()
+    (7): Linear(in_features=512, out_features=3, bias=True)
+  )
+)
+2022-11-25 01:17:21.478515	folder path: saved/riemannian-diffusion/hyperbolic/5gaussians-64-0.001-10000-2.0-512-3-0
+2022-11-25 01:17:21.478670	Namespace(dataset='5gaussians', dataroot='data', saveroot='saved', expname='hyperbolic', print_every=100, sample_every=500, checkpoint_every=500, reload=False, evaluate_every=5000, evaluation_K=10, seed=12345, num_steps=100, evaluation_num_steps=100, T0=2.0, emb_size=512, hidden_layers=3, imp=0, drift_coeff=1.0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, wandb=True)
+2022-11-25 01:17:39.829669	cuda unavailable
+2022-11-25 01:17:39.832922	ConcatMLP(
+  (net): Sequential(
+    (0): ActNorm()
+    (1): Linear(in_features=4, out_features=512, bias=True)
+    (2): Swish()
+    (3): Linear(in_features=512, out_features=512, bias=True)
+    (4): Swish()
+    (5): Linear(in_features=512, out_features=512, bias=True)
+    (6): Swish()
+    (7): Linear(in_features=512, out_features=3, bias=True)
+  )
+)
+2022-11-25 01:17:41.469891	Iteration 1 	loss nan
+2022-11-25 01:17:54.464209	Iteration 100 	loss nan
+2022-11-25 01:18:07.771756	Iteration 200 	loss nan
+2022-11-25 01:18:21.226912	Iteration 300 	loss nan
+2022-11-25 01:18:34.617628	Iteration 400 	loss nan
+2022-11-25 01:18:47.953501	Iteration 500 	loss nan
+2022-11-25 01:25:10.894093	folder path: saved/riemannian-diffusion/hyperbolic/5gaussians-64-0.001-10000-2.0-512-3-0
+2022-11-25 01:25:10.894433	Namespace(dataset='5gaussians', dataroot='data', saveroot='saved', expname='hyperbolic', print_every=10, sample_every=500, checkpoint_every=500, reload=False, evaluate_every=5000, evaluation_K=10, seed=12345, num_steps=100, evaluation_num_steps=100, T0=2.0, emb_size=512, hidden_layers=3, imp=0, drift_coeff=1.0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, wandb=True)
+2022-11-25 01:25:26.800929	cuda unavailable
+2022-11-25 01:25:26.803897	ConcatMLP(
+  (net): Sequential(
+    (0): ActNorm()
+    (1): Linear(in_features=4, out_features=512, bias=True)
+    (2): Swish()
+    (3): Linear(in_features=512, out_features=512, bias=True)
+    (4): Swish()
+    (5): Linear(in_features=512, out_features=512, bias=True)
+    (6): Swish()
+    (7): Linear(in_features=512, out_features=3, bias=True)
+  )
+)
+2022-11-25 01:25:28.447516	Iteration 1 	loss nan
+2022-11-25 01:25:29.221235	Iteration 10 	loss nan
+2022-11-25 01:25:30.063263	Iteration 20 	loss nan
+2022-11-25 01:25:30.917259	Iteration 30 	loss nan
+2022-11-25 01:25:31.788232	Iteration 40 	loss nan
+2022-11-25 01:25:32.644150	Iteration 50 	loss nan
+2022-11-25 01:25:33.851894	Iteration 60 	loss nan
+2022-11-25 01:25:34.699384	Iteration 70 	loss nan
+2022-11-25 01:25:35.557585	Iteration 80 	loss nan
+2022-11-25 01:25:36.409224	Iteration 90 	loss nan
+2022-11-25 01:25:37.267435	Iteration 100 	loss nan
+2022-11-25 01:25:38.382654	Iteration 110 	loss nan
+2022-11-25 01:25:39.274228	Iteration 120 	loss nan
+2022-11-25 01:25:40.135673	Iteration 130 	loss nan
+2022-11-25 01:25:40.968854	Iteration 140 	loss nan
+2022-11-25 01:25:41.821995	Iteration 150 	loss nan
+2022-11-25 01:25:42.936809	Iteration 160 	loss nan
+2022-11-25 01:25:43.783427	Iteration 170 	loss nan
+2022-11-25 01:25:44.646680	Iteration 180 	loss nan
+2022-11-25 01:25:45.478562	Iteration 190 	loss nan
+2022-11-25 01:25:46.311013	Iteration 200 	loss nan
+2022-11-25 01:25:47.469962	Iteration 210 	loss nan
+2022-11-25 01:25:48.317687	Iteration 220 	loss nan
+2022-11-25 01:25:49.165329	Iteration 230 	loss nan
+2022-11-25 01:25:50.025686	Iteration 240 	loss nan
+2022-11-25 01:25:50.937104	Iteration 250 	loss nan
+2022-11-25 01:25:52.147729	Iteration 260 	loss nan
+2022-11-25 01:25:52.991689	Iteration 270 	loss nan
+2022-11-25 01:25:53.861027	Iteration 280 	loss nan
+2022-11-25 01:25:54.702064	Iteration 290 	loss nan
+2022-11-25 01:25:55.538000	Iteration 300 	loss nan
+2022-11-25 01:25:56.734357	Iteration 310 	loss nan
+2022-11-25 01:25:57.593827	Iteration 320 	loss nan
+2022-11-25 01:25:58.453101	Iteration 330 	loss nan
+2022-11-25 01:25:59.335611	Iteration 340 	loss nan
+2022-11-25 01:26:00.185339	Iteration 350 	loss nan
+2022-11-25 01:26:01.294154	Iteration 360 	loss nan
+2022-11-25 01:26:02.140802	Iteration 370 	loss nan
+2022-11-25 01:26:02.942964	Iteration 380 	loss nan
+2022-11-25 01:26:03.755742	Iteration 390 	loss nan
+2022-11-25 01:26:04.592685	Iteration 400 	loss nan

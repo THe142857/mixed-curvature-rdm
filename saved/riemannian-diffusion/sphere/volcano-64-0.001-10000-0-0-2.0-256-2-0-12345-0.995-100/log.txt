@@ -1,0 +1,18 @@
+2022-11-19 16:57:31.486145	folder path: saved/riemannian-diffusion/sphere/volcano-64-0.001-10000-0-0-2.0-256-2-0-12345-0.995-100
+2022-11-19 16:57:31.486293	Namespace(dataset='volcano', dataroot='data', saveroot='saved', expname='sphere', print_every=100, sample_every=500, checkpoint_every=500, evaluate_every=5000, evaluation_K=10, num_steps=100, inference_num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=10000, sch=0, warmup_iters=0, ema_decay=0.995, mode='train')
+2022-11-19 16:57:32.274078	ConcatSinMLP(
+  (net): Sequential(
+    (0): Linear(in_features=4, out_features=256, bias=True)
+    (1): Sin()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Sin()
+    (4): Linear(in_features=256, out_features=3, bias=True)
+  )
+)
+2022-11-19 16:57:32.274268	cuda unavailable
+2022-11-19 16:57:35.665621	Iteration 1 	loss 2.4396462440490723
+2022-11-19 16:57:36.540593	Iteration 100 	loss 2.2960805892944336
+2022-11-19 16:57:37.347469	Iteration 200 	loss 2.0306897163391113
+2022-11-19 16:57:38.117429	Iteration 300 	loss 2.1733434200286865
+2022-11-19 16:57:38.877177	Iteration 400 	loss 2.606678009033203
+2022-11-19 16:57:39.644617	Iteration 500 	loss 1.7981733083724976
