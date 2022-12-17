@@ -40,8 +40,8 @@ def get_args():
     parser.add_argument('--saveroot', type=str, default='saved')
     parser.add_argument('--expname', type=str, default='sphere')
     parser.add_argument('--print_every', type=int, default=100)
-    parser.add_argument('--sample_every', type=int, default=500)
-    parser.add_argument('--checkpoint_every', type=int, default=500)
+    parser.add_argument('--sample_every', type=int, default=1000)
+    parser.add_argument('--checkpoint_every', type=int, default=1000)
     parser.add_argument('--evaluate_every', type=int, default=5000)
     parser.add_argument('--evaluation_K', type=int, default=10)
     parser.add_argument('--num_steps', type=int, default=100,
@@ -70,7 +70,7 @@ def get_args():
     parser.add_argument('--test_batch_size', type=int, default=256)
     parser.add_argument('--lr', type=float, default=0.001,
                         help='learning rate')
-    parser.add_argument('--num_iterations', type=int, default=10000)
+    parser.add_argument('--num_iterations', type=int, default=100000)
     parser.add_argument('--sch', type=int, default=0, choices=[0, 1],
                         help='using cosine lr scheduler')
     parser.add_argument('--warmup_iters', type=int, default=0,
@@ -105,7 +105,12 @@ def get_estimand(x_):
 def evaluate(dataloader, a_module, adaptive=True):
     a_module.eval()
     kelbos = []
-    for x_val in dataloader:
+    for x_val, _ in dataloader:
+        # print(x_val.shape)
+        x_val = encoder(x_val).detach()
+        # print(x_val.shape)
+        x_val = Sphere.proj2manifold(x_val)
+        # print(x_val.shape)
         if cuda:
             x_val = x_val.cuda()
         if adaptive:
@@ -221,7 +226,6 @@ if __name__ == "__main__":
     testset  = torchvision.datasets.MNIST(data_dir, train=False, download=True)
 
     train_transform = transforms.Compose([transforms.ToTensor()])
-
     test_transform = transforms.Compose([transforms.ToTensor()])
 
     trainset.transform = train_transform
@@ -397,12 +401,12 @@ if __name__ == "__main__":
                 # if count % args.evaluate_every == 0:
                 #     evaluate_step()
 
-                # if count >= args.num_iterations:
-                #     not_finished = False
-                #     print_('Finished training')
-                #     torch.save([a, opt, sch, not_finished, count, imp_sampler, ema_a],
-                #             os.path.join(folder_path, 'checkpoint.pt'))
-                #     break
+                if count >= args.num_iterations:
+                    not_finished = False
+                    print_('Finished training')
+                    torch.save([a, opt, sch, not_finished, count, imp_sampler, ema_a],
+                            os.path.join(folder_path, 'checkpoint.pt'))
+                    break
 
                 # if args.imp >= 1 and count % args.imp == 1:
                 #     imp_sampler.train()
@@ -416,9 +420,9 @@ if __name__ == "__main__":
                 #                         xlabel='t', ylabel='q(t)', density=True, bins=20)))}, step=count)
                 #     imp_sampler.eval()
 
-        val_kelbo = evaluate(valloader, a_module=ema_a, adaptive=True)
+        val_kelbo = evaluate(valid_loader, a_module=ema_a, adaptive=True)
         print_(f'Final Validation KELBO: {val_kelbo.item()}')
-        test_kelbo = evaluate(testloader, a_module=ema_a, adaptive=True)
+        test_kelbo = evaluate(test_loader, a_module=ema_a, adaptive=True)
         print_(f'Final Test KELBO: {test_kelbo.item()}')
 
 

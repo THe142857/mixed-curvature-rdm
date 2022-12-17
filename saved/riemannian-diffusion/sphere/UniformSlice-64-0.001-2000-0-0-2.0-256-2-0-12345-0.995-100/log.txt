@@ -1,0 +1,34 @@
+2022-12-17 12:36:02.883261	folder path: saved/riemannian-diffusion/sphere/UniformSlice-64-0.001-2000-0-0-2.0-256-2-0-12345-0.995-100
+2022-12-17 12:36:02.883467	Namespace(dataset='UniformSlice', dataroot='data', saveroot='saved', expname='sphere', print_every=100, sample_every=1000, checkpoint_every=1000, evaluate_every=5000, evaluation_K=10, num_steps=100, inference_num_steps=100, evaluation_num_steps=100, seed=12345, T0=2.0, emb_size=256, hidden_layers=2, imp=0, div=None, batch_size=64, val_batch_size=256, test_batch_size=256, lr=0.001, num_iterations=2000, sch=0, warmup_iters=0, ema_decay=0.995, mode='train')
+2022-12-17 12:36:03.787342	ConcatSinMLP(
+  (net): Sequential(
+    (0): Linear(in_features=4, out_features=256, bias=True)
+    (1): Sin()
+    (2): Linear(in_features=256, out_features=256, bias=True)
+    (3): Sin()
+    (4): Linear(in_features=256, out_features=3, bias=True)
+  )
+)
+2022-12-17 12:36:03.787551	cuda unavailable
+2022-12-17 12:36:05.824791	Iteration 1 	loss 2.6064374446868896
+2022-12-17 12:36:08.054463	Iteration 100 	loss 2.629197359085083
+2022-12-17 12:36:10.255633	Iteration 200 	loss 2.485880136489868
+2022-12-17 12:36:12.470377	Iteration 300 	loss 2.5043792724609375
+2022-12-17 12:36:14.659120	Iteration 400 	loss 2.424468994140625
+2022-12-17 12:36:16.873447	Iteration 500 	loss 2.5592052936553955
+2022-12-17 12:36:19.205776	Iteration 600 	loss 2.457839250564575
+2022-12-17 12:36:21.562406	Iteration 700 	loss 2.2965645790100098
+2022-12-17 12:36:23.824005	Iteration 800 	loss 2.317173480987549
+2022-12-17 12:36:26.042720	Iteration 900 	loss 2.3791542053222656
+2022-12-17 12:36:28.234696	Iteration 1000 	loss 2.567288875579834
+2022-12-17 12:36:30.583688	Iteration 1100 	loss 2.4682068824768066
+2022-12-17 12:36:32.794486	Iteration 1200 	loss 2.121561050415039
+2022-12-17 12:36:35.028927	Iteration 1300 	loss 2.286133050918579
+2022-12-17 12:36:37.239236	Iteration 1400 	loss 2.3540875911712646
+2022-12-17 12:36:39.453488	Iteration 1500 	loss 2.403419256210327
+2022-12-17 12:36:41.871692	Iteration 1600 	loss 2.367295742034912
+2022-12-17 12:36:44.106808	Iteration 1700 	loss 2.3946878910064697
+2022-12-17 12:36:46.340825	Iteration 1800 	loss 2.5232045650482178
+2022-12-17 12:36:48.571027	Iteration 1900 	loss 2.3266844749450684
+2022-12-17 12:36:50.789320	Iteration 2000 	loss 2.5524063110351562
+2022-12-17 12:36:50.930415	Finished training
